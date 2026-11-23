@@ -1,0 +1,6119 @@
+{
+  "metadata": {
+    "source": "athens_data.csv",
+    "source_sha256": "9acd164c24ea0adbf8decef35266c2ff3b7ec0d5790cf0138166d85f904a8a82",
+    "generated_at": "2026-11-23T18:42:48.877772+00:00",
+    "provenance": "Recomputed from original CSV",
+    "dataset": "Air Quality Monitoring in European Cities — Athens"
+  },
+  "quality": {
+    "rows": 1726464,
+    "columns": 19,
+    "missing": {
+      "Date": 0,
+      "Latitude": 0,
+      "Longitude": 0,
+      "station_name": 0,
+      "Wind-Speed (U)": 8573,
+      "Wind-Speed (V)": 8573,
+      "Dewpoint Temp": 8573,
+      "Soil Temp": 8573,
+      "Total Percipitation": 8573,
+      "Vegitation (High)": 8573,
+      "Vegitation (Low)": 8573,
+      "Temp": 7565,
+      "Relative Humidity": 8573,
+      "PM10": 0,
+      "PM2.5": 0,
+      "NO2": 143293,
+      "O3": 148064,
+      "code": 26976,
+      "id": 0
+    },
+    "date_min": "2020-05-01T00:00:00",
+    "date_max": "2023-05-29T23:00:00",
+    "stations": 64,
+    "duplicate_station_timestamps": 0,
+    "invalid_negative_pollutants": {
+      "PM2.5": 0,
+      "NO2": 0
+    }
+  },
+  "station_stats": [
+    {
+      "station_name": "ATH-ENVICARE-0",
+      "pm25_mean": 23.0333765835,
+      "pm25_max": 1748.7153846154,
+      "no2_mean": 32.0783856228,
+      "pm25_exceedance_hours": 8333,
+      "latitude": 37.97673,
+      "longitude": 23.7298
+    },
+    {
+      "station_name": "ATHINAS",
+      "pm25_mean": 23.0333765835,
+      "pm25_max": 1748.7153846154,
+      "no2_mean": 29.6102664249,
+      "pm25_exceedance_hours": 8333,
+      "latitude": 37.978,
+      "longitude": 23.727
+    },
+    {
+      "station_name": "ATH-ENVICARE-3",
+      "pm25_mean": 22.4291049596,
+      "pm25_max": 544.5142857143,
+      "no2_mean": null,
+      "pm25_exceedance_hours": 7703,
+      "latitude": 37.989967,
+      "longitude": 23.708792
+    },
+    {
+      "station_name": "PERISTERI",
+      "pm25_mean": 20.9220764959,
+      "pm25_max": 483.4090909091,
+      "no2_mean": 25.1537825854,
+      "pm25_exceedance_hours": 6822,
+      "latitude": 38.021,
+      "longitude": 23.688
+    },
+    {
+      "station_name": "ATH-ENVICARE-2",
+      "pm25_mean": 20.7242130393,
+      "pm25_max": 510.0448275862,
+      "no2_mean": 19.2232740479,
+      "pm25_exceedance_hours": 6567,
+      "latitude": 38.04972,
+      "longitude": 23.757725
+    },
+    {
+      "station_name": "PANACEA_029",
+      "pm25_mean": 20.312720325,
+      "pm25_max": 370.6965517241,
+      "no2_mean": 42.6211059327,
+      "pm25_exceedance_hours": 6828,
+      "latitude": 38.00546,
+      "longitude": 23.73234
+    },
+    {
+      "station_name": "PANACEA_019",
+      "pm25_mean": 19.8451144336,
+      "pm25_max": 364.5206896552,
+      "no2_mean": 25.1240824873,
+      "pm25_exceedance_hours": 6157,
+      "latitude": 38.034657,
+      "longitude": 23.702152
+    },
+    {
+      "station_name": "PANACEA_039",
+      "pm25_mean": 19.497467066,
+      "pm25_max": 889.3933333333,
+      "no2_mean": 28.2255401403,
+      "pm25_exceedance_hours": 7134,
+      "latitude": 37.97081,
+      "longitude": 23.748861
+    },
+    {
+      "station_name": "PANACEA_020",
+      "pm25_mean": 19.4726526198,
+      "pm25_max": 209.7555555556,
+      "no2_mean": 19.2232740479,
+      "pm25_exceedance_hours": 6508,
+      "latitude": 38.090866,
+      "longitude": 23.72522
+    },
+    {
+      "station_name": "CleanAir in Greece - Thiseio",
+      "pm25_mean": 19.1376475916,
+      "pm25_max": 378.3678571429,
+      "no2_mean": null,
+      "pm25_exceedance_hours": 5995,
+      "latitude": 37.974033,
+      "longitude": 23.718441
+    },
+    {
+      "station_name": "CleanAir in Greece - Thiseio II",
+      "pm25_mean": 19.0998212013,
+      "pm25_max": 378.3678571429,
+      "no2_mean": null,
+      "pm25_exceedance_hours": 5916,
+      "latitude": 37.97381,
+      "longitude": 23.719069
+    },
+    {
+      "station_name": "PANACEA_AirPaP_008",
+      "pm25_mean": 18.927221521,
+      "pm25_max": 445.980952381,
+      "no2_mean": 26.8136759817,
+      "pm25_exceedance_hours": 5603,
+      "latitude": 37.92956,
+      "longitude": 23.69305
+    },
+    {
+      "station_name": "PPCITY21",
+      "pm25_mean": 18.815935297,
+      "pm25_max": 363.4347826087,
+      "no2_mean": 32.0783856228,
+      "pm25_exceedance_hours": 5830,
+      "latitude": 37.978336,
+      "longitude": 23.727934
+    },
+    {
+      "station_name": "PANACEA_021",
+      "pm25_mean": 18.7962413993,
+      "pm25_max": 370.6965517241,
+      "no2_mean": 19.2232740479,
+      "pm25_exceedance_hours": 5540,
+      "latitude": 38.022263,
+      "longitude": 23.737436
+    },
+    {
+      "station_name": "PANACEA_AirPaP_006",
+      "pm25_mean": 18.7542783555,
+      "pm25_max": 369.1761904762,
+      "no2_mean": 29.8090716288,
+      "pm25_exceedance_hours": 5775,
+      "latitude": 37.95576,
+      "longitude": 23.667692
+    },
+    {
+      "station_name": "SMYRNI",
+      "pm25_mean": 18.7090657712,
+      "pm25_max": 445.980952381,
+      "no2_mean": 25.7061410321,
+      "pm25_exceedance_hours": 5500,
+      "latitude": 37.932,
+      "longitude": 23.713
+    },
+    {
+      "station_name": "PANACEA_001",
+      "pm25_mean": 18.6276001037,
+      "pm25_max": 338.86,
+      "no2_mean": 42.5200005604,
+      "pm25_exceedance_hours": 6126,
+      "latitude": 37.99345,
+      "longitude": 23.744556
+    },
+    {
+      "station_name": "MAROUSI",
+      "pm25_mean": 18.2378648593,
+      "pm25_max": 445.2379310345,
+      "no2_mean": 21.6601484012,
+      "pm25_exceedance_hours": 5260,
+      "latitude": 38.031,
+      "longitude": 23.787
+    },
+    {
+      "station_name": "PANACEA_AirPaP_002",
+      "pm25_mean": 18.1511667,
+      "pm25_max": 187.80625,
+      "no2_mean": 41.8284581963,
+      "pm25_exceedance_hours": 5804,
+      "latitude": 38.00266,
+      "longitude": 23.763859
+    },
+    {
+      "station_name": "ARISTOTELOUS",
+      "pm25_mean": 18.1108677216,
+      "pm25_max": 285.0,
+      "no2_mean": 42.6094624958,
+      "pm25_exceedance_hours": 4363,
+      "latitude": 37.988,
+      "longitude": 23.728
+    },
+    {
+      "station_name": "PANACEA_005",
+      "pm25_mean": 17.8001469546,
+      "pm25_max": 445.2379310345,
+      "no2_mean": 19.6926066487,
+      "pm25_exceedance_hours": 4906,
+      "latitude": 38.01869,
+      "longitude": 23.810574
+    },
+    {
+      "station_name": "PANACEA_049",
+      "pm25_mean": 17.7468165686,
+      "pm25_max": 300.5833333333,
+      "no2_mean": 25.1514000551,
+      "pm25_exceedance_hours": 4960,
+      "latitude": 38.037506,
+      "longitude": 23.686476
+    },
+    {
+      "station_name": "PANACEA_048",
+      "pm25_mean": 17.6858220965,
+      "pm25_max": 300.5833333333,
+      "no2_mean": 25.1514000551,
+      "pm25_exceedance_hours": 4937,
+      "latitude": 38.04067,
+      "longitude": 23.684368
+    },
+    {
+      "station_name": "Ano Liosia (Perneri)",
+      "pm25_mean": 17.1841189275,
+      "pm25_max": 231.515,
+      "no2_mean": 20.4195361815,
+      "pm25_exceedance_hours": 5019,
+      "latitude": 38.08363,
+      "longitude": 23.700375
+    },
+    {
+      "station_name": "PPCITY12",
+      "pm25_mean": 16.0871021257,
+      "pm25_max": 177.0,
+      "no2_mean": 42.600258766,
+      "pm25_exceedance_hours": 3675,
+      "latitude": 37.988132,
+      "longitude": 23.72989
+    },
+    {
+      "station_name": "PANACEA_000",
+      "pm25_mean": 16.0316065331,
+      "pm25_max": 424.42,
+      "no2_mean": 32.0783856228,
+      "pm25_exceedance_hours": 4812,
+      "latitude": 37.97312,
+      "longitude": 23.718056
+    },
+    {
+      "station_name": "PANACEA_AirPaP_001",
+      "pm25_mean": 15.7181129861,
+      "pm25_max": 285.9379310345,
+      "no2_mean": 12.0362335095,
+      "pm25_exceedance_hours": 4100,
+      "latitude": 38.037838,
+      "longitude": 23.826132
+    },
+    {
+      "station_name": "ATHENS_01",
+      "pm25_mean": 15.6552906379,
+      "pm25_max": 285.9379310345,
+      "no2_mean": null,
+      "pm25_exceedance_hours": 4051,
+      "latitude": 38.040443,
+      "longitude": 23.833649
+    },
+    {
+      "station_name": "PANACEA_038",
+      "pm25_mean": 15.1483324877,
+      "pm25_max": 251.7964285714,
+      "no2_mean": 29.8090716288,
+      "pm25_exceedance_hours": 3357,
+      "latitude": 37.9357,
+      "longitude": 23.644547
+    },
+    {
+      "station_name": "PANACEA_037",
+      "pm25_mean": 14.6642699088,
+      "pm25_max": 1498.9666666667,
+      "no2_mean": 19.2232740479,
+      "pm25_exceedance_hours": 3141,
+      "latitude": 38.053745,
+      "longitude": 23.741959
+    },
+    {
+      "station_name": "PANACEA_004",
+      "pm25_mean": 14.633853541,
+      "pm25_max": 196.7931034483,
+      "no2_mean": 12.0362335095,
+      "pm25_exceedance_hours": 3586,
+      "latitude": 38.056435,
+      "longitude": 23.840101
+    },
+    {
+      "station_name": "ELEFSINA",
+      "pm25_mean": 14.5527453221,
+      "pm25_max": 356.0,
+      "no2_mean": 23.426271418,
+      "pm25_exceedance_hours": 2372,
+      "latitude": 38.051,
+      "longitude": 23.538
+    },
+    {
+      "station_name": "PANACEA_022",
+      "pm25_mean": 13.9780754865,
+      "pm25_max": 208.7588235294,
+      "no2_mean": 15.2341365329,
+      "pm25_exceedance_hours": 3226,
+      "latitude": 37.871895,
+      "longitude": 23.755962
+    },
+    {
+      "station_name": "Athens CAMS station 3",
+      "pm25_mean": 13.8531556819,
+      "pm25_max": 55.671303,
+      "no2_mean": 29.8250539106,
+      "pm25_exceedance_hours": 1793,
+      "latitude": 37.95,
+      "longitude": 23.65
+    },
+    {
+      "station_name": "ATHENS_02",
+      "pm25_mean": 13.83074189,
+      "pm25_max": 203.5818181818,
+      "no2_mean": null,
+      "pm25_exceedance_hours": 2998,
+      "latitude": 37.98204,
+      "longitude": 23.79478
+    },
+    {
+      "station_name": "PANACEA_014",
+      "pm25_mean": 13.26197706,
+      "pm25_max": 55.00546,
+      "no2_mean": 25.1717786434,
+      "pm25_exceedance_hours": 1588,
+      "latitude": 38.013317,
+      "longitude": 23.647491
+    },
+    {
+      "station_name": "Athens CAMS station 16",
+      "pm25_mean": 13.26197706,
+      "pm25_max": 55.00546,
+      "no2_mean": 20.4254206772,
+      "pm25_exceedance_hours": 1588,
+      "latitude": 38.05,
+      "longitude": 23.65
+    },
+    {
+      "station_name": "Athens CAMS station 17",
+      "pm25_mean": 13.2602158626,
+      "pm25_max": 84.847435,
+      "no2_mean": 19.2300230477,
+      "pm25_exceedance_hours": 1546,
+      "latitude": 38.05,
+      "longitude": 23.75
+    },
+    {
+      "station_name": "PANACEA_045",
+      "pm25_mean": 13.2264549361,
+      "pm25_max": 110.6777777778,
+      "no2_mean": 22.1061083744,
+      "pm25_exceedance_hours": 1620,
+      "latitude": 37.948063,
+      "longitude": 23.72836
+    },
+    {
+      "station_name": "National Technical University of Athens",
+      "pm25_mean": 13.2008197544,
+      "pm25_max": 188.525,
+      "no2_mean": 10.9469398492,
+      "pm25_exceedance_hours": 2537,
+      "latitude": 37.97721,
+      "longitude": 23.783016
+    },
+    {
+      "station_name": "Athens CAMS station 4",
+      "pm25_mean": 13.1328559727,
+      "pm25_max": 55.213486,
+      "no2_mean": 22.12262463,
+      "pm25_exceedance_hours": 1384,
+      "latitude": 37.95,
+      "longitude": 23.75
+    },
+    {
+      "station_name": "PANACEA_047",
+      "pm25_mean": 13.1082932063,
+      "pm25_max": 64.7714285714,
+      "no2_mean": 22.1078641778,
+      "pm25_exceedance_hours": 1583,
+      "latitude": 37.961323,
+      "longitude": 23.761395
+    },
+    {
+      "station_name": "PANACEA_046",
+      "pm25_mean": 13.04261936,
+      "pm25_max": 287.8071428571,
+      "no2_mean": 22.1078641778,
+      "pm25_exceedance_hours": 1587,
+      "latitude": 37.933243,
+      "longitude": 23.757456
+    },
+    {
+      "station_name": "PANACEA_006",
+      "pm25_mean": 12.5431560649,
+      "pm25_max": 192.8631578947,
+      "no2_mean": 15.2341365329,
+      "pm25_exceedance_hours": 2473,
+      "latitude": 37.813873,
+      "longitude": 23.782408
+    },
+    {
+      "station_name": "PANACEA_032",
+      "pm25_mean": 12.5322941986,
+      "pm25_max": 298.0,
+      "no2_mean": 6.8765216859,
+      "pm25_exceedance_hours": 2373,
+      "latitude": 38.132057,
+      "longitude": 23.789848
+    },
+    {
+      "station_name": "Athens CAMS station 2",
+      "pm25_mean": 12.2112584572,
+      "pm25_max": 67.9862,
+      "no2_mean": 24.9343015542,
+      "pm25_exceedance_hours": 1146,
+      "latitude": 37.95,
+      "longitude": 23.55
+    },
+    {
+      "station_name": "THRAKOMAKEDONES",
+      "pm25_mean": 12.1918224666,
+      "pm25_max": 298.0,
+      "no2_mean": 6.8797388473,
+      "pm25_exceedance_hours": 919,
+      "latitude": 38.144,
+      "longitude": 23.758
+    },
+    {
+      "station_name": "Athens CAMS station 15",
+      "pm25_mean": 12.186203187,
+      "pm25_max": 55.534676,
+      "no2_mean": 19.6957302908,
+      "pm25_exceedance_hours": 1160,
+      "latitude": 38.05,
+      "longitude": 23.55
+    },
+    {
+      "station_name": "PARASKEVI",
+      "pm25_mean": 11.7353230903,
+      "pm25_max": 125.0,
+      "no2_mean": 10.4171884636,
+      "pm25_exceedance_hours": 717,
+      "latitude": 37.995,
+      "longitude": 23.819
+    },
+    {
+      "station_name": "Athens CAMS station 8",
+      "pm25_mean": 11.4509908966,
+      "pm25_max": 52.23573,
+      "no2_mean": 20.6509186116,
+      "pm25_exceedance_hours": 827,
+      "latitude": 37.85,
+      "longitude": 23.65
+    },
+    {
+      "station_name": "Athens CAMS station 9",
+      "pm25_mean": 11.284816617,
+      "pm25_max": 51.72398,
+      "no2_mean": 15.2487675019,
+      "pm25_exceedance_hours": 736,
+      "latitude": 37.85,
+      "longitude": 23.75
+    },
+    {
+      "station_name": "Athens CAMS station 5",
+      "pm25_mean": 11.2362514849,
+      "pm25_max": 53.22908,
+      "no2_mean": 11.9491971033,
+      "pm25_exceedance_hours": 589,
+      "latitude": 37.95,
+      "longitude": 23.85
+    },
+    {
+      "station_name": "KOROPI",
+      "pm25_mean": 11.2362514849,
+      "pm25_max": 53.22908,
+      "no2_mean": 12.224655052,
+      "pm25_exceedance_hours": 589,
+      "latitude": 37.901,
+      "longitude": 23.879
+    },
+    {
+      "station_name": "Athens CAMS station 18",
+      "pm25_mean": 11.2288874496,
+      "pm25_max": 50.838932,
+      "no2_mean": 12.0412377211,
+      "pm25_exceedance_hours": 666,
+      "latitude": 38.05,
+      "longitude": 23.85
+    },
+    {
+      "station_name": "Athens CAMS station 10",
+      "pm25_mean": 10.6049746954,
+      "pm25_max": 48.845985,
+      "no2_mean": 9.8655036473,
+      "pm25_exceedance_hours": 484,
+      "latitude": 37.85,
+      "longitude": 23.85
+    },
+    {
+      "station_name": "Athens CAMS station 7",
+      "pm25_mean": 10.6021127422,
+      "pm25_max": 60.907475,
+      "no2_mean": 17.4554246181,
+      "pm25_exceedance_hours": 634,
+      "latitude": 37.85,
+      "longitude": 23.55
+    },
+    {
+      "station_name": "Athens CAMS station 12",
+      "pm25_mean": 10.230448111,
+      "pm25_max": 65.8767,
+      "no2_mean": 8.1104697718,
+      "pm25_exceedance_hours": 480,
+      "latitude": 38.15,
+      "longitude": 23.75
+    },
+    {
+      "station_name": "Athens CAMS station 13",
+      "pm25_mean": 10.1483464782,
+      "pm25_max": 78.544914,
+      "no2_mean": 7.2882506755,
+      "pm25_exceedance_hours": 467,
+      "latitude": 38.15,
+      "longitude": 23.85
+    },
+    {
+      "station_name": "Athens CAMS station 6",
+      "pm25_mean": 10.0814910102,
+      "pm25_max": 49.4042,
+      "no2_mean": 9.6461310365,
+      "pm25_exceedance_hours": 392,
+      "latitude": 37.95,
+      "longitude": 23.95
+    },
+    {
+      "station_name": "Athens CAMS station 19",
+      "pm25_mean": 9.9781119638,
+      "pm25_max": 54.728745,
+      "no2_mean": 7.3940349686,
+      "pm25_exceedance_hours": 407,
+      "latitude": 38.05,
+      "longitude": 23.95
+    },
+    {
+      "station_name": "Athens CAMS station 11",
+      "pm25_mean": 9.7940681413,
+      "pm25_max": 48.289433,
+      "no2_mean": 7.0301267911,
+      "pm25_exceedance_hours": 342,
+      "latitude": 37.85,
+      "longitude": 23.95
+    },
+    {
+      "station_name": "Athens CAMS station 1",
+      "pm25_mean": 9.7538608319,
+      "pm25_max": 46.0172,
+      "no2_mean": 7.3132801998,
+      "pm25_exceedance_hours": 393,
+      "latitude": 38.15,
+      "longitude": 23.65
+    },
+    {
+      "station_name": "Athens CAMS station 0",
+      "pm25_mean": 9.5627003848,
+      "pm25_max": 53.821594,
+      "no2_mean": 8.965892974,
+      "pm25_exceedance_hours": 397,
+      "latitude": 38.15,
+      "longitude": 23.55
+    },
+    {
+      "station_name": "Athens CAMS station 14",
+      "pm25_mean": 9.4866140781,
+      "pm25_max": 62.967266,
+      "no2_mean": 5.4085804273,
+      "pm25_exceedance_hours": 366,
+      "latitude": 38.15,
+      "longitude": 23.95
+    }
+  ],
+  "rules": [
+    {
+      "antecedents": [
+        "Wind_Speed_Level_Low"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.11220227701334079,
+      "confidence": 0.4487903000502878,
+      "lift": 1.8042600038807062
+    },
+    {
+      "antecedents": [
+        "Humidity_Level_Medium",
+        "Wind_Speed_Level_Low"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.054424809666829645,
+      "confidence": 0.42430842953604875,
+      "lift": 1.7058361747915338
+    },
+    {
+      "antecedents": [
+        "Humidity_Level_High"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.08642872110078927,
+      "confidence": 0.345719713902548,
+      "lift": 1.3898879995346456
+    },
+    {
+      "antecedents": [
+        "Temperature_Level_Low"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.07778165816861074,
+      "confidence": 0.3114965034965035,
+      "lift": 1.2523013143208583
+    },
+    {
+      "antecedents": [
+        "Temperature_Level_High"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.0631556890410002,
+      "confidence": 0.2524711006868822,
+      "lift": 1.0150030182337675
+    },
+    {
+      "antecedents": [
+        "Wind_Speed_Level_Medium"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.11665851784591744,
+      "confidence": 0.2333202950379973,
+      "lift": 0.9380115309611949
+    },
+    {
+      "antecedents": [
+        "Humidity_Level_Medium"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.1159041698679891,
+      "confidence": 0.23181157800625837,
+      "lift": 0.931946075007189
+    },
+    {
+      "antecedents": [
+        "Temperature_Level_Medium"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.10780191380875882,
+      "confidence": 0.21554059715666285,
+      "lift": 0.8665322726867185
+    },
+    {
+      "antecedents": [
+        "Humidity_Level_Medium",
+        "Wind_Speed_Level_Medium"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.051002304952154784,
+      "confidence": 0.20468688680831978,
+      "lift": 0.8228973824651
+    },
+    {
+      "antecedents": [
+        "Humidity_Level_Medium",
+        "Temperature_Level_Medium"
+      ],
+      "consequent": "PM25_Level_High",
+      "support": 0.056631975972619965,
+      "confidence": 0.1776122672508215,
+      "lift": 0.7140499916404615
+    }
+  ],
+  "rules_metadata": {
+    "method": "Apriori",
+    "transactions": 71585,
+    "removed_station_days": 351,
+    "frequent_itemsets": 90,
+    "total_rules": 300,
+    "min_support": 0.05,
+    "min_confidence": 0.1,
+    "thresholds": {
+      "PM25": {
+        "q1": 8.958333333333334,
+        "q3": 17.91219028615346
+      },
+      "Humidity": {
+        "q1": 53.79138620648402,
+        "q3": 75.83124477730864
+      },
+      "Temperature": {
+        "q1": 11.548741971431301,
+        "q3": 23.914223484165912
+      },
+      "Wind_Speed": {
+        "q1": 1.5436417831347578,
+        "q3": 3.2538972974613003
+      }
+    }
+  },
+  "temporal": {
+    "history": [
+      {
+        "Date": "2020-05-01T00:00:00.000",
+        "Observed": 14.0276310759
+      },
+      {
+        "Date": "2020-05-02T00:00:00.000",
+        "Observed": 7.6884940066
+      },
+      {
+        "Date": "2020-05-03T00:00:00.000",
+        "Observed": 7.0559799016
+      },
+      {
+        "Date": "2020-05-04T00:00:00.000",
+        "Observed": 6.2515881215
+      },
+      {
+        "Date": "2020-05-05T00:00:00.000",
+        "Observed": 8.8230549649
+      },
+      {
+        "Date": "2020-05-06T00:00:00.000",
+        "Observed": 8.5447631473
+      },
+      {
+        "Date": "2020-05-07T00:00:00.000",
+        "Observed": 9.3136755117
+      },
+      {
+        "Date": "2020-05-08T00:00:00.000",
+        "Observed": 10.0446226498
+      },
+      {
+        "Date": "2020-05-09T00:00:00.000",
+        "Observed": 11.0631364615
+      },
+      {
+        "Date": "2020-05-10T00:00:00.000",
+        "Observed": 13.1504703094
+      },
+      {
+        "Date": "2020-05-11T00:00:00.000",
+        "Observed": 11.0723355237
+      },
+      {
+        "Date": "2020-05-12T00:00:00.000",
+        "Observed": 18.2529393945
+      },
+      {
+        "Date": "2020-05-13T00:00:00.000",
+        "Observed": 14.1333487441
+      },
+      {
+        "Date": "2020-05-14T00:00:00.000",
+        "Observed": 19.8369857796
+      },
+      {
+        "Date": "2020-05-15T00:00:00.000",
+        "Observed": 24.3267223014
+      },
+      {
+        "Date": "2020-05-16T00:00:00.000",
+        "Observed": 24.5866007493
+      },
+      {
+        "Date": "2020-05-17T00:00:00.000",
+        "Observed": 29.0606478574
+      },
+      {
+        "Date": "2020-05-18T00:00:00.000",
+        "Observed": 31.7147579863
+      },
+      {
+        "Date": "2020-05-19T00:00:00.000",
+        "Observed": 26.0771414199
+      },
+      {
+        "Date": "2020-05-20T00:00:00.000",
+        "Observed": 27.2348619362
+      },
+      {
+        "Date": "2020-05-21T00:00:00.000",
+        "Observed": 9.3558792355
+      },
+      {
+        "Date": "2020-05-22T00:00:00.000",
+        "Observed": 5.3782554564
+      },
+      {
+        "Date": "2020-05-23T00:00:00.000",
+        "Observed": 7.8935824294
+      },
+      {
+        "Date": "2020-05-24T00:00:00.000",
+        "Observed": 8.9380034371
+      },
+      {
+        "Date": "2020-05-25T00:00:00.000",
+        "Observed": 8.9757697966
+      },
+      {
+        "Date": "2020-05-26T00:00:00.000",
+        "Observed": 7.1044539254
+      },
+      {
+        "Date": "2020-05-27T00:00:00.000",
+        "Observed": 6.292250536
+      },
+      {
+        "Date": "2020-05-28T00:00:00.000",
+        "Observed": 7.7562951725
+      },
+      {
+        "Date": "2020-05-29T00:00:00.000",
+        "Observed": 9.3367765661
+      },
+      {
+        "Date": "2020-05-30T00:00:00.000",
+        "Observed": 9.1006962965
+      },
+      {
+        "Date": "2020-05-31T00:00:00.000",
+        "Observed": 9.2354976152
+      },
+      {
+        "Date": "2020-06-01T00:00:00.000",
+        "Observed": 7.6585014473
+      },
+      {
+        "Date": "2020-06-02T00:00:00.000",
+        "Observed": 7.3996882892
+      },
+      {
+        "Date": "2020-06-03T00:00:00.000",
+        "Observed": 11.0545757771
+      },
+      {
+        "Date": "2020-06-04T00:00:00.000",
+        "Observed": 8.9867998868
+      },
+      {
+        "Date": "2020-06-05T00:00:00.000",
+        "Observed": 9.0243689258
+      },
+      {
+        "Date": "2020-06-06T00:00:00.000",
+        "Observed": 11.8150757858
+      },
+      {
+        "Date": "2020-06-07T00:00:00.000",
+        "Observed": 10.5132428445
+      },
+      {
+        "Date": "2020-06-08T00:00:00.000",
+        "Observed": 11.9492390805
+      },
+      {
+        "Date": "2020-06-09T00:00:00.000",
+        "Observed": 11.1529209456
+      },
+      {
+        "Date": "2020-06-10T00:00:00.000",
+        "Observed": 15.1408765718
+      },
+      {
+        "Date": "2020-06-11T00:00:00.000",
+        "Observed": 5.7867840027
+      },
+      {
+        "Date": "2020-06-12T00:00:00.000",
+        "Observed": 9.9568796219
+      },
+      {
+        "Date": "2020-06-13T00:00:00.000",
+        "Observed": 7.0892132309
+      },
+      {
+        "Date": "2020-06-14T00:00:00.000",
+        "Observed": 8.5573096669
+      },
+      {
+        "Date": "2020-06-15T00:00:00.000",
+        "Observed": 9.2309645257
+      },
+      {
+        "Date": "2020-06-16T00:00:00.000",
+        "Observed": 7.437099062
+      },
+      {
+        "Date": "2020-06-17T00:00:00.000",
+        "Observed": 5.7066624914
+      },
+      {
+        "Date": "2020-06-18T00:00:00.000",
+        "Observed": 6.6587440621
+      },
+      {
+        "Date": "2020-06-19T00:00:00.000",
+        "Observed": 6.6347054018
+      },
+      {
+        "Date": "2020-06-20T00:00:00.000",
+        "Observed": 10.682725557
+      },
+      {
+        "Date": "2020-06-21T00:00:00.000",
+        "Observed": 12.3950261979
+      },
+      {
+        "Date": "2020-06-22T00:00:00.000",
+        "Observed": 9.6121346009
+      },
+      {
+        "Date": "2020-06-23T00:00:00.000",
+        "Observed": 11.759549511
+      },
+      {
+        "Date": "2020-06-24T00:00:00.000",
+        "Observed": 11.5893736308
+      },
+      {
+        "Date": "2020-06-25T00:00:00.000",
+        "Observed": 9.3920872851
+      },
+      {
+        "Date": "2020-06-26T00:00:00.000",
+        "Observed": 10.6691835298
+      },
+      {
+        "Date": "2020-06-27T00:00:00.000",
+        "Observed": 8.0559515609
+      },
+      {
+        "Date": "2020-06-28T00:00:00.000",
+        "Observed": 6.4774114206
+      },
+      {
+        "Date": "2020-06-29T00:00:00.000",
+        "Observed": 10.0355092836
+      },
+      {
+        "Date": "2020-06-30T00:00:00.000",
+        "Observed": 14.0444998967
+      },
+      {
+        "Date": "2020-07-01T00:00:00.000",
+        "Observed": 13.013205139
+      },
+      {
+        "Date": "2020-07-02T00:00:00.000",
+        "Observed": 9.0846403229
+      },
+      {
+        "Date": "2020-07-03T00:00:00.000",
+        "Observed": 9.7995269503
+      },
+      {
+        "Date": "2020-07-04T00:00:00.000",
+        "Observed": 11.6540015064
+      },
+      {
+        "Date": "2020-07-05T00:00:00.000",
+        "Observed": 10.9830676025
+      },
+      {
+        "Date": "2020-07-06T00:00:00.000",
+        "Observed": 9.1655007934
+      },
+      {
+        "Date": "2020-07-07T00:00:00.000",
+        "Observed": 12.7353366626
+      },
+      {
+        "Date": "2020-07-08T00:00:00.000",
+        "Observed": 9.3898658725
+      },
+      {
+        "Date": "2020-07-09T00:00:00.000",
+        "Observed": 6.8258048758
+      },
+      {
+        "Date": "2020-07-10T00:00:00.000",
+        "Observed": 11.2093310105
+      },
+      {
+        "Date": "2020-07-11T00:00:00.000",
+        "Observed": 7.0815603076
+      },
+      {
+        "Date": "2020-07-12T00:00:00.000",
+        "Observed": 8.7194789752
+      },
+      {
+        "Date": "2020-07-13T00:00:00.000",
+        "Observed": 10.2611177061
+      },
+      {
+        "Date": "2020-07-14T00:00:00.000",
+        "Observed": 6.1332111602
+      },
+      {
+        "Date": "2020-07-15T00:00:00.000",
+        "Observed": 6.9258844632
+      },
+      {
+        "Date": "2020-07-16T00:00:00.000",
+        "Observed": 11.4621311013
+      },
+      {
+        "Date": "2020-07-17T00:00:00.000",
+        "Observed": 11.5002907215
+      },
+      {
+        "Date": "2020-07-18T00:00:00.000",
+        "Observed": 11.3434169712
+      },
+      {
+        "Date": "2020-07-19T00:00:00.000",
+        "Observed": 13.7203721861
+      },
+      {
+        "Date": "2020-07-20T00:00:00.000",
+        "Observed": 13.3172405049
+      },
+      {
+        "Date": "2020-07-21T00:00:00.000",
+        "Observed": 12.0745639036
+      },
+      {
+        "Date": "2020-07-22T00:00:00.000",
+        "Observed": 8.7616287261
+      },
+      {
+        "Date": "2020-07-23T00:00:00.000",
+        "Observed": 9.7883426718
+      },
+      {
+        "Date": "2020-07-24T00:00:00.000",
+        "Observed": 8.3249154296
+      },
+      {
+        "Date": "2020-07-25T00:00:00.000",
+        "Observed": 9.0192425089
+      },
+      {
+        "Date": "2020-07-26T00:00:00.000",
+        "Observed": 13.5978509849
+      },
+      {
+        "Date": "2020-07-27T00:00:00.000",
+        "Observed": 11.416390888
+      },
+      {
+        "Date": "2020-07-28T00:00:00.000",
+        "Observed": 9.4113838107
+      },
+      {
+        "Date": "2020-07-29T00:00:00.000",
+        "Observed": 10.0705905897
+      },
+      {
+        "Date": "2020-07-30T00:00:00.000",
+        "Observed": 9.7070209518
+      },
+      {
+        "Date": "2020-07-31T00:00:00.000",
+        "Observed": 12.3103322236
+      },
+      {
+        "Date": "2020-08-01T00:00:00.000",
+        "Observed": 12.0021149528
+      },
+      {
+        "Date": "2020-08-02T00:00:00.000",
+        "Observed": 10.1714878918
+      },
+      {
+        "Date": "2020-08-03T00:00:00.000",
+        "Observed": 11.1412853155
+      },
+      {
+        "Date": "2020-08-04T00:00:00.000",
+        "Observed": 10.4439717714
+      },
+      {
+        "Date": "2020-08-05T00:00:00.000",
+        "Observed": 11.6570574234
+      },
+      {
+        "Date": "2020-08-06T00:00:00.000",
+        "Observed": 12.9351399561
+      },
+      {
+        "Date": "2020-08-07T00:00:00.000",
+        "Observed": 11.1949008956
+      },
+      {
+        "Date": "2020-08-08T00:00:00.000",
+        "Observed": 9.3632608535
+      },
+      {
+        "Date": "2020-08-09T00:00:00.000",
+        "Observed": 9.8898281717
+      },
+      {
+        "Date": "2020-08-10T00:00:00.000",
+        "Observed": 7.523019622
+      },
+      {
+        "Date": "2020-08-11T00:00:00.000",
+        "Observed": 7.3629696678
+      },
+      {
+        "Date": "2020-08-12T00:00:00.000",
+        "Observed": 11.0527003752
+      },
+      {
+        "Date": "2020-08-13T00:00:00.000",
+        "Observed": 12.0091351626
+      },
+      {
+        "Date": "2020-08-14T00:00:00.000",
+        "Observed": 8.1845466169
+      },
+      {
+        "Date": "2020-08-15T00:00:00.000",
+        "Observed": 9.8797510707
+      },
+      {
+        "Date": "2020-08-16T00:00:00.000",
+        "Observed": 10.7751171889
+      },
+      {
+        "Date": "2020-08-17T00:00:00.000",
+        "Observed": 7.4832005445
+      },
+      {
+        "Date": "2020-08-18T00:00:00.000",
+        "Observed": 10.7131567842
+      },
+      {
+        "Date": "2020-08-19T00:00:00.000",
+        "Observed": 17.1015992785
+      },
+      {
+        "Date": "2020-08-20T00:00:00.000",
+        "Observed": 9.4806290578
+      },
+      {
+        "Date": "2020-08-21T00:00:00.000",
+        "Observed": 9.0330194796
+      },
+      {
+        "Date": "2020-08-22T00:00:00.000",
+        "Observed": 10.4738613738
+      },
+      {
+        "Date": "2020-08-23T00:00:00.000",
+        "Observed": 11.4851819049
+      },
+      {
+        "Date": "2020-08-24T00:00:00.000",
+        "Observed": 10.7472102611
+      },
+      {
+        "Date": "2020-08-25T00:00:00.000",
+        "Observed": 13.6042064531
+      },
+      {
+        "Date": "2020-08-26T00:00:00.000",
+        "Observed": 11.7262751063
+      },
+      {
+        "Date": "2020-08-27T00:00:00.000",
+        "Observed": 11.9971942681
+      },
+      {
+        "Date": "2020-08-28T00:00:00.000",
+        "Observed": 9.0341655352
+      },
+      {
+        "Date": "2020-08-29T00:00:00.000",
+        "Observed": 11.5821228173
+      },
+      {
+        "Date": "2020-08-30T00:00:00.000",
+        "Observed": 13.9938277663
+      },
+      {
+        "Date": "2020-08-31T00:00:00.000",
+        "Observed": 10.9092675217
+      },
+      {
+        "Date": "2020-09-01T00:00:00.000",
+        "Observed": 15.3611746842
+      },
+      {
+        "Date": "2020-09-02T00:00:00.000",
+        "Observed": 17.5432103081
+      },
+      {
+        "Date": "2020-09-03T00:00:00.000",
+        "Observed": 15.8163686458
+      },
+      {
+        "Date": "2020-09-04T00:00:00.000",
+        "Observed": 9.5026792059
+      },
+      {
+        "Date": "2020-09-05T00:00:00.000",
+        "Observed": 8.820540229
+      },
+      {
+        "Date": "2020-09-06T00:00:00.000",
+        "Observed": 8.3587312445
+      },
+      {
+        "Date": "2020-09-07T00:00:00.000",
+        "Observed": 9.9600757369
+      },
+      {
+        "Date": "2020-09-08T00:00:00.000",
+        "Observed": 12.1594582367
+      },
+      {
+        "Date": "2020-09-09T00:00:00.000",
+        "Observed": 10.8603783345
+      },
+      {
+        "Date": "2020-09-10T00:00:00.000",
+        "Observed": 6.1707702178
+      },
+      {
+        "Date": "2020-09-11T00:00:00.000",
+        "Observed": 8.3327712068
+      },
+      {
+        "Date": "2020-09-12T00:00:00.000",
+        "Observed": 11.6795651357
+      },
+      {
+        "Date": "2020-09-13T00:00:00.000",
+        "Observed": 12.4444319141
+      },
+      {
+        "Date": "2020-09-14T00:00:00.000",
+        "Observed": 9.9415658846
+      },
+      {
+        "Date": "2020-09-15T00:00:00.000",
+        "Observed": 13.0309085892
+      },
+      {
+        "Date": "2020-09-16T00:00:00.000",
+        "Observed": 11.3880504986
+      },
+      {
+        "Date": "2020-09-17T00:00:00.000",
+        "Observed": 12.5006214488
+      },
+      {
+        "Date": "2020-09-18T00:00:00.000",
+        "Observed": 10.3361272481
+      },
+      {
+        "Date": "2020-09-19T00:00:00.000",
+        "Observed": 8.2238286562
+      },
+      {
+        "Date": "2020-09-20T00:00:00.000",
+        "Observed": 6.2998735454
+      },
+      {
+        "Date": "2020-09-21T00:00:00.000",
+        "Observed": 7.1051009807
+      },
+      {
+        "Date": "2020-09-22T00:00:00.000",
+        "Observed": 8.3959879578
+      },
+      {
+        "Date": "2020-09-23T00:00:00.000",
+        "Observed": 14.5928441533
+      },
+      {
+        "Date": "2020-09-24T00:00:00.000",
+        "Observed": 13.5137957703
+      },
+      {
+        "Date": "2020-09-25T00:00:00.000",
+        "Observed": 9.5104517338
+      },
+      {
+        "Date": "2020-09-26T00:00:00.000",
+        "Observed": 12.4946962453
+      },
+      {
+        "Date": "2020-09-27T00:00:00.000",
+        "Observed": 7.2207644042
+      },
+      {
+        "Date": "2020-09-28T00:00:00.000",
+        "Observed": 10.7652093648
+      },
+      {
+        "Date": "2020-09-29T00:00:00.000",
+        "Observed": 6.1193180665
+      },
+      {
+        "Date": "2020-09-30T00:00:00.000",
+        "Observed": 5.6758008082
+      },
+      {
+        "Date": "2020-10-01T00:00:00.000",
+        "Observed": 14.6411329574
+      },
+      {
+        "Date": "2020-10-02T00:00:00.000",
+        "Observed": 15.294088119
+      },
+      {
+        "Date": "2020-10-03T00:00:00.000",
+        "Observed": 10.8125245017
+      },
+      {
+        "Date": "2020-10-04T00:00:00.000",
+        "Observed": 15.7336795378
+      },
+      {
+        "Date": "2020-10-05T00:00:00.000",
+        "Observed": 28.0635978861
+      },
+      {
+        "Date": "2020-10-06T00:00:00.000",
+        "Observed": 26.6201973177
+      },
+      {
+        "Date": "2020-10-07T00:00:00.000",
+        "Observed": 23.6490091126
+      },
+      {
+        "Date": "2020-10-08T00:00:00.000",
+        "Observed": 8.3582745693
+      },
+      {
+        "Date": "2020-10-09T00:00:00.000",
+        "Observed": 9.349275099
+      },
+      {
+        "Date": "2020-10-10T00:00:00.000",
+        "Observed": 11.1500450281
+      },
+      {
+        "Date": "2020-10-11T00:00:00.000",
+        "Observed": 11.072933109
+      },
+      {
+        "Date": "2020-10-12T00:00:00.000",
+        "Observed": 10.0568282995
+      },
+      {
+        "Date": "2020-10-13T00:00:00.000",
+        "Observed": 5.8863026074
+      },
+      {
+        "Date": "2020-10-14T00:00:00.000",
+        "Observed": 7.5211448435
+      },
+      {
+        "Date": "2020-10-15T00:00:00.000",
+        "Observed": 9.0493532615
+      },
+      {
+        "Date": "2020-10-16T00:00:00.000",
+        "Observed": 9.2230234816
+      },
+      {
+        "Date": "2020-10-17T00:00:00.000",
+        "Observed": 11.7902281354
+      },
+      {
+        "Date": "2020-10-18T00:00:00.000",
+        "Observed": 7.991526372
+      },
+      {
+        "Date": "2020-10-19T00:00:00.000",
+        "Observed": 8.2483785757
+      },
+      {
+        "Date": "2020-10-20T00:00:00.000",
+        "Observed": 6.583044802
+      },
+      {
+        "Date": "2020-10-21T00:00:00.000",
+        "Observed": 6.0486728008
+      },
+      {
+        "Date": "2020-10-22T00:00:00.000",
+        "Observed": 9.3133497024
+      },
+      {
+        "Date": "2020-10-23T00:00:00.000",
+        "Observed": 13.9370149667
+      },
+      {
+        "Date": "2020-10-24T00:00:00.000",
+        "Observed": 15.6948188568
+      },
+      {
+        "Date": "2020-10-25T00:00:00.000",
+        "Observed": 13.6808104005
+      },
+      {
+        "Date": "2020-10-26T00:00:00.000",
+        "Observed": 10.1499773372
+      },
+      {
+        "Date": "2020-10-27T00:00:00.000",
+        "Observed": 12.2159819652
+      },
+      {
+        "Date": "2020-10-28T00:00:00.000",
+        "Observed": 7.0699850783
+      },
+      {
+        "Date": "2020-10-29T00:00:00.000",
+        "Observed": 7.0818785781
+      },
+      {
+        "Date": "2020-10-30T00:00:00.000",
+        "Observed": 13.9370235127
+      },
+      {
+        "Date": "2020-10-31T00:00:00.000",
+        "Observed": 7.7155736986
+      },
+      {
+        "Date": "2020-11-01T00:00:00.000",
+        "Observed": 19.7291441964
+      },
+      {
+        "Date": "2020-11-02T00:00:00.000",
+        "Observed": 12.4794864222
+      },
+      {
+        "Date": "2020-11-03T00:00:00.000",
+        "Observed": 17.7019505713
+      },
+      {
+        "Date": "2020-11-04T00:00:00.000",
+        "Observed": 13.6212655555
+      },
+      {
+        "Date": "2020-11-05T00:00:00.000",
+        "Observed": 8.8473596706
+      },
+      {
+        "Date": "2020-11-06T00:00:00.000",
+        "Observed": 8.0553779161
+      },
+      {
+        "Date": "2020-11-07T00:00:00.000",
+        "Observed": 7.0111832358
+      },
+      {
+        "Date": "2020-11-08T00:00:00.000",
+        "Observed": 8.047394907
+      },
+      {
+        "Date": "2020-11-09T00:00:00.000",
+        "Observed": 7.8459775616
+      },
+      {
+        "Date": "2020-11-10T00:00:00.000",
+        "Observed": 7.8344109641
+      },
+      {
+        "Date": "2020-11-11T00:00:00.000",
+        "Observed": 6.9024487443
+      },
+      {
+        "Date": "2020-11-12T00:00:00.000",
+        "Observed": 8.5242317183
+      },
+      {
+        "Date": "2020-11-13T00:00:00.000",
+        "Observed": 12.39622283
+      },
+      {
+        "Date": "2020-11-14T00:00:00.000",
+        "Observed": 12.7927343206
+      },
+      {
+        "Date": "2020-11-15T00:00:00.000",
+        "Observed": 13.8519930919
+      },
+      {
+        "Date": "2020-11-16T00:00:00.000",
+        "Observed": 19.5402699769
+      },
+      {
+        "Date": "2020-11-17T00:00:00.000",
+        "Observed": 18.8369134167
+      },
+      {
+        "Date": "2020-11-18T00:00:00.000",
+        "Observed": 12.4231629967
+      },
+      {
+        "Date": "2020-11-19T00:00:00.000",
+        "Observed": 5.623278271
+      },
+      {
+        "Date": "2020-11-20T00:00:00.000",
+        "Observed": 4.9781040141
+      },
+      {
+        "Date": "2020-11-21T00:00:00.000",
+        "Observed": 5.6766827467
+      },
+      {
+        "Date": "2020-11-22T00:00:00.000",
+        "Observed": 6.4928501208
+      },
+      {
+        "Date": "2020-11-23T00:00:00.000",
+        "Observed": 8.6827740461
+      },
+      {
+        "Date": "2020-11-24T00:00:00.000",
+        "Observed": 10.9126011762
+      },
+      {
+        "Date": "2020-11-25T00:00:00.000",
+        "Observed": 7.5657694708
+      },
+      {
+        "Date": "2020-11-26T00:00:00.000",
+        "Observed": 8.2371452483
+      },
+      {
+        "Date": "2020-11-27T00:00:00.000",
+        "Observed": 12.9482976021
+      },
+      {
+        "Date": "2020-11-28T00:00:00.000",
+        "Observed": 16.2985590935
+      },
+      {
+        "Date": "2020-11-29T00:00:00.000",
+        "Observed": 11.7247956793
+      },
+      {
+        "Date": "2020-11-30T00:00:00.000",
+        "Observed": 10.7230048126
+      },
+      {
+        "Date": "2020-12-01T00:00:00.000",
+        "Observed": 17.238205362
+      },
+      {
+        "Date": "2020-12-02T00:00:00.000",
+        "Observed": 12.6422294078
+      },
+      {
+        "Date": "2020-12-03T00:00:00.000",
+        "Observed": 11.7690037913
+      },
+      {
+        "Date": "2020-12-04T00:00:00.000",
+        "Observed": 11.7064838965
+      },
+      {
+        "Date": "2020-12-05T00:00:00.000",
+        "Observed": 10.7512816161
+      },
+      {
+        "Date": "2020-12-06T00:00:00.000",
+        "Observed": 9.7296848045
+      },
+      {
+        "Date": "2020-12-07T00:00:00.000",
+        "Observed": 8.4604924027
+      },
+      {
+        "Date": "2020-12-08T00:00:00.000",
+        "Observed": 9.6309849917
+      },
+      {
+        "Date": "2020-12-09T00:00:00.000",
+        "Observed": 10.1816830937
+      },
+      {
+        "Date": "2020-12-10T00:00:00.000",
+        "Observed": 9.3208897859
+      },
+      {
+        "Date": "2020-12-11T00:00:00.000",
+        "Observed": 8.4028260712
+      },
+      {
+        "Date": "2020-12-12T00:00:00.000",
+        "Observed": 8.4133587368
+      },
+      {
+        "Date": "2020-12-13T00:00:00.000",
+        "Observed": 6.1551422809
+      },
+      {
+        "Date": "2020-12-14T00:00:00.000",
+        "Observed": 4.4034438581
+      },
+      {
+        "Date": "2020-12-15T00:00:00.000",
+        "Observed": 6.6324479309
+      },
+      {
+        "Date": "2020-12-16T00:00:00.000",
+        "Observed": 11.5007276293
+      },
+      {
+        "Date": "2020-12-17T00:00:00.000",
+        "Observed": 14.4962314391
+      },
+      {
+        "Date": "2020-12-18T00:00:00.000",
+        "Observed": 15.587294253
+      },
+      {
+        "Date": "2020-12-19T00:00:00.000",
+        "Observed": 15.0309698519
+      },
+      {
+        "Date": "2020-12-20T00:00:00.000",
+        "Observed": 15.1221399984
+      },
+      {
+        "Date": "2020-12-21T00:00:00.000",
+        "Observed": 11.2552775396
+      },
+      {
+        "Date": "2020-12-22T00:00:00.000",
+        "Observed": 11.9028569342
+      },
+      {
+        "Date": "2020-12-23T00:00:00.000",
+        "Observed": 20.0659488761
+      },
+      {
+        "Date": "2020-12-24T00:00:00.000",
+        "Observed": 18.4157182306
+      },
+      {
+        "Date": "2020-12-25T00:00:00.000",
+        "Observed": 13.1752522535
+      },
+      {
+        "Date": "2020-12-26T00:00:00.000",
+        "Observed": 15.1785813278
+      },
+      {
+        "Date": "2020-12-27T00:00:00.000",
+        "Observed": 7.939980248
+      },
+      {
+        "Date": "2020-12-28T00:00:00.000",
+        "Observed": 5.7793226528
+      },
+      {
+        "Date": "2020-12-29T00:00:00.000",
+        "Observed": 6.1062422752
+      },
+      {
+        "Date": "2020-12-30T00:00:00.000",
+        "Observed": 8.2825218423
+      },
+      {
+        "Date": "2020-12-31T00:00:00.000",
+        "Observed": 11.3078307611
+      },
+      {
+        "Date": "2021-01-01T00:00:00.000",
+        "Observed": 12.1550986669
+      },
+      {
+        "Date": "2021-01-02T00:00:00.000",
+        "Observed": 12.5776948857
+      },
+      {
+        "Date": "2021-01-03T00:00:00.000",
+        "Observed": 12.8652715327
+      },
+      {
+        "Date": "2021-01-04T00:00:00.000",
+        "Observed": 14.6129093573
+      },
+      {
+        "Date": "2021-01-05T00:00:00.000",
+        "Observed": 12.3510155505
+      },
+      {
+        "Date": "2021-01-06T00:00:00.000",
+        "Observed": 8.7881581756
+      },
+      {
+        "Date": "2021-01-07T00:00:00.000",
+        "Observed": 14.2421331749
+      },
+      {
+        "Date": "2021-01-08T00:00:00.000",
+        "Observed": 20.0064868691
+      },
+      {
+        "Date": "2021-01-09T00:00:00.000",
+        "Observed": 20.0799977627
+      },
+      {
+        "Date": "2021-01-10T00:00:00.000",
+        "Observed": 18.7110528385
+      },
+      {
+        "Date": "2021-01-11T00:00:00.000",
+        "Observed": 20.0938827243
+      },
+      {
+        "Date": "2021-01-12T00:00:00.000",
+        "Observed": 16.3746615937
+      },
+      {
+        "Date": "2021-01-13T00:00:00.000",
+        "Observed": 8.3339693468
+      },
+      {
+        "Date": "2021-01-14T00:00:00.000",
+        "Observed": 7.7375434502
+      },
+      {
+        "Date": "2021-01-15T00:00:00.000",
+        "Observed": 7.8248293126
+      },
+      {
+        "Date": "2021-01-16T00:00:00.000",
+        "Observed": 7.1278361534
+      },
+      {
+        "Date": "2021-01-17T00:00:00.000",
+        "Observed": 11.2602234823
+      },
+      {
+        "Date": "2021-01-18T00:00:00.000",
+        "Observed": 11.2465646326
+      },
+      {
+        "Date": "2021-01-19T00:00:00.000",
+        "Observed": 14.0573343798
+      },
+      {
+        "Date": "2021-01-20T00:00:00.000",
+        "Observed": 26.3539513655
+      },
+      {
+        "Date": "2021-01-21T00:00:00.000",
+        "Observed": 25.7700920584
+      },
+      {
+        "Date": "2021-01-22T00:00:00.000",
+        "Observed": 19.4851404262
+      },
+      {
+        "Date": "2021-01-23T00:00:00.000",
+        "Observed": 7.8603299576
+      },
+      {
+        "Date": "2021-01-24T00:00:00.000",
+        "Observed": 7.1324897636
+      },
+      {
+        "Date": "2021-01-25T00:00:00.000",
+        "Observed": 6.18332175
+      },
+      {
+        "Date": "2021-01-26T00:00:00.000",
+        "Observed": 7.2354995947
+      },
+      {
+        "Date": "2021-01-27T00:00:00.000",
+        "Observed": 8.75778201
+      },
+      {
+        "Date": "2021-01-28T00:00:00.000",
+        "Observed": 15.007146916
+      },
+      {
+        "Date": "2021-01-29T00:00:00.000",
+        "Observed": 20.7028806829
+      },
+      {
+        "Date": "2021-01-30T00:00:00.000",
+        "Observed": 15.381792311
+      },
+      {
+        "Date": "2021-01-31T00:00:00.000",
+        "Observed": 14.6606089842
+      },
+      {
+        "Date": "2021-02-01T00:00:00.000",
+        "Observed": 14.4217298217
+      },
+      {
+        "Date": "2021-02-02T00:00:00.000",
+        "Observed": 14.7814670872
+      },
+      {
+        "Date": "2021-02-03T00:00:00.000",
+        "Observed": 21.0751465019
+      },
+      {
+        "Date": "2021-02-04T00:00:00.000",
+        "Observed": 15.9666440054
+      },
+      {
+        "Date": "2021-02-05T00:00:00.000",
+        "Observed": 23.7126583603
+      },
+      {
+        "Date": "2021-02-06T00:00:00.000",
+        "Observed": 22.3634151533
+      },
+      {
+        "Date": "2021-02-07T00:00:00.000",
+        "Observed": 17.7976555263
+      },
+      {
+        "Date": "2021-02-08T00:00:00.000",
+        "Observed": 9.3579809044
+      },
+      {
+        "Date": "2021-02-09T00:00:00.000",
+        "Observed": 9.6968799361
+      },
+      {
+        "Date": "2021-02-10T00:00:00.000",
+        "Observed": 11.5592609976
+      },
+      {
+        "Date": "2021-02-11T00:00:00.000",
+        "Observed": 12.0419162232
+      },
+      {
+        "Date": "2021-02-12T00:00:00.000",
+        "Observed": 11.4337277639
+      },
+      {
+        "Date": "2021-02-13T00:00:00.000",
+        "Observed": 16.3975496023
+      },
+      {
+        "Date": "2021-02-14T00:00:00.000",
+        "Observed": 7.7238189435
+      },
+      {
+        "Date": "2021-02-15T00:00:00.000",
+        "Observed": 5.4925392229
+      },
+      {
+        "Date": "2021-02-16T00:00:00.000",
+        "Observed": 20.2511163274
+      },
+      {
+        "Date": "2021-02-17T00:00:00.000",
+        "Observed": 34.118178844
+      },
+      {
+        "Date": "2021-02-18T00:00:00.000",
+        "Observed": 33.6139897547
+      },
+      {
+        "Date": "2021-02-19T00:00:00.000",
+        "Observed": 25.9383245813
+      },
+      {
+        "Date": "2021-02-20T00:00:00.000",
+        "Observed": 28.2834831015
+      },
+      {
+        "Date": "2021-02-21T00:00:00.000",
+        "Observed": 19.9734554013
+      },
+      {
+        "Date": "2021-02-22T00:00:00.000",
+        "Observed": 26.0794492968
+      },
+      {
+        "Date": "2021-02-23T00:00:00.000",
+        "Observed": 28.0267362265
+      },
+      {
+        "Date": "2021-02-24T00:00:00.000",
+        "Observed": 24.4186974805
+      },
+      {
+        "Date": "2021-02-25T00:00:00.000",
+        "Observed": 25.4125563147
+      },
+      {
+        "Date": "2021-02-26T00:00:00.000",
+        "Observed": 24.0590535944
+      },
+      {
+        "Date": "2021-02-27T00:00:00.000",
+        "Observed": 25.5668374876
+      },
+      {
+        "Date": "2021-02-28T00:00:00.000",
+        "Observed": 16.7662174613
+      },
+      {
+        "Date": "2021-03-01T00:00:00.000",
+        "Observed": 14.4362112487
+      },
+      {
+        "Date": "2021-03-02T00:00:00.000",
+        "Observed": 9.8885352367
+      },
+      {
+        "Date": "2021-03-03T00:00:00.000",
+        "Observed": 10.583265599
+      },
+      {
+        "Date": "2021-03-04T00:00:00.000",
+        "Observed": 27.9384058733
+      },
+      {
+        "Date": "2021-03-05T00:00:00.000",
+        "Observed": 20.3644772438
+      },
+      {
+        "Date": "2021-03-06T00:00:00.000",
+        "Observed": 16.6358434368
+      },
+      {
+        "Date": "2021-03-07T00:00:00.000",
+        "Observed": 14.2751872194
+      },
+      {
+        "Date": "2021-03-08T00:00:00.000",
+        "Observed": 18.6923744687
+      },
+      {
+        "Date": "2021-03-09T00:00:00.000",
+        "Observed": 16.5049007499
+      },
+      {
+        "Date": "2021-03-10T00:00:00.000",
+        "Observed": 17.4536507222
+      },
+      {
+        "Date": "2021-03-11T00:00:00.000",
+        "Observed": 10.5344012023
+      },
+      {
+        "Date": "2021-03-12T00:00:00.000",
+        "Observed": 20.4600940736
+      },
+      {
+        "Date": "2021-03-13T00:00:00.000",
+        "Observed": 23.5465622964
+      },
+      {
+        "Date": "2021-03-14T00:00:00.000",
+        "Observed": 25.1662791592
+      },
+      {
+        "Date": "2021-03-15T00:00:00.000",
+        "Observed": 11.3530645561
+      },
+      {
+        "Date": "2021-03-16T00:00:00.000",
+        "Observed": 5.0582561163
+      },
+      {
+        "Date": "2021-03-17T00:00:00.000",
+        "Observed": 7.5491377865
+      },
+      {
+        "Date": "2021-03-18T00:00:00.000",
+        "Observed": 6.7388360308
+      },
+      {
+        "Date": "2021-03-19T00:00:00.000",
+        "Observed": 10.4797778405
+      },
+      {
+        "Date": "2021-03-20T00:00:00.000",
+        "Observed": 16.2839186837
+      },
+      {
+        "Date": "2021-03-21T00:00:00.000",
+        "Observed": 16.8076482362
+      },
+      {
+        "Date": "2021-03-22T00:00:00.000",
+        "Observed": 11.354247951
+      },
+      {
+        "Date": "2021-03-23T00:00:00.000",
+        "Observed": 9.0209960703
+      },
+      {
+        "Date": "2021-03-24T00:00:00.000",
+        "Observed": 12.4806819392
+      },
+      {
+        "Date": "2021-03-25T00:00:00.000",
+        "Observed": 12.3049686799
+      },
+      {
+        "Date": "2021-03-26T00:00:00.000",
+        "Observed": 18.7420125847
+      },
+      {
+        "Date": "2021-03-27T00:00:00.000",
+        "Observed": 24.3530882771
+      },
+      {
+        "Date": "2021-03-28T00:00:00.000",
+        "Observed": 29.0098564884
+      },
+      {
+        "Date": "2021-03-29T00:00:00.000",
+        "Observed": 23.257520512
+      },
+      {
+        "Date": "2021-03-30T00:00:00.000",
+        "Observed": 12.1256446406
+      },
+      {
+        "Date": "2021-03-31T00:00:00.000",
+        "Observed": 12.5580336327
+      },
+      {
+        "Date": "2021-04-01T00:00:00.000",
+        "Observed": 21.5647429053
+      },
+      {
+        "Date": "2021-04-02T00:00:00.000",
+        "Observed": 15.9849098056
+      },
+      {
+        "Date": "2021-04-03T00:00:00.000",
+        "Observed": 21.0836617575
+      },
+      {
+        "Date": "2021-04-04T00:00:00.000",
+        "Observed": 16.6329630348
+      },
+      {
+        "Date": "2021-04-05T00:00:00.000",
+        "Observed": 15.9088772115
+      },
+      {
+        "Date": "2021-04-06T00:00:00.000",
+        "Observed": 14.4781365869
+      },
+      {
+        "Date": "2021-04-07T00:00:00.000",
+        "Observed": 10.0147667203
+      },
+      {
+        "Date": "2021-04-08T00:00:00.000",
+        "Observed": 11.2677948065
+      },
+      {
+        "Date": "2021-04-09T00:00:00.000",
+        "Observed": 9.4203477606
+      },
+      {
+        "Date": "2021-04-10T00:00:00.000",
+        "Observed": 12.9917596836
+      },
+      {
+        "Date": "2021-04-11T00:00:00.000",
+        "Observed": 18.8371838304
+      },
+      {
+        "Date": "2021-04-12T00:00:00.000",
+        "Observed": 16.5077352459
+      },
+      {
+        "Date": "2021-04-13T00:00:00.000",
+        "Observed": 21.5892373566
+      },
+      {
+        "Date": "2021-04-14T00:00:00.000",
+        "Observed": 15.4077068693
+      },
+      {
+        "Date": "2021-04-15T00:00:00.000",
+        "Observed": 10.6816109807
+      },
+      {
+        "Date": "2021-04-16T00:00:00.000",
+        "Observed": 16.1592605069
+      },
+      {
+        "Date": "2021-04-17T00:00:00.000",
+        "Observed": 23.2600757271
+      },
+      {
+        "Date": "2021-04-18T00:00:00.000",
+        "Observed": 35.3291606355
+      },
+      {
+        "Date": "2021-04-19T00:00:00.000",
+        "Observed": 16.7718052714
+      },
+      {
+        "Date": "2021-04-20T00:00:00.000",
+        "Observed": 5.3088059798
+      },
+      {
+        "Date": "2021-04-21T00:00:00.000",
+        "Observed": 7.543997102
+      },
+      {
+        "Date": "2021-04-22T00:00:00.000",
+        "Observed": 10.5418693767
+      },
+      {
+        "Date": "2021-04-23T00:00:00.000",
+        "Observed": 11.9641436453
+      },
+      {
+        "Date": "2021-04-24T00:00:00.000",
+        "Observed": 8.0463748315
+      },
+      {
+        "Date": "2021-04-25T00:00:00.000",
+        "Observed": 15.1468704215
+      },
+      {
+        "Date": "2021-04-26T00:00:00.000",
+        "Observed": 16.472905177
+      },
+      {
+        "Date": "2021-04-27T00:00:00.000",
+        "Observed": 19.2387169264
+      },
+      {
+        "Date": "2021-04-28T00:00:00.000",
+        "Observed": 14.8091266585
+      },
+      {
+        "Date": "2021-04-29T00:00:00.000",
+        "Observed": 17.8730042349
+      },
+      {
+        "Date": "2021-04-30T00:00:00.000",
+        "Observed": 18.8099484687
+      },
+      {
+        "Date": "2021-05-01T00:00:00.000",
+        "Observed": 19.3104530368
+      },
+      {
+        "Date": "2021-05-02T00:00:00.000",
+        "Observed": 25.3685022963
+      },
+      {
+        "Date": "2021-05-03T00:00:00.000",
+        "Observed": 16.0295337041
+      },
+      {
+        "Date": "2021-05-04T00:00:00.000",
+        "Observed": 9.593560234
+      },
+      {
+        "Date": "2021-05-05T00:00:00.000",
+        "Observed": 11.7892253298
+      },
+      {
+        "Date": "2021-05-06T00:00:00.000",
+        "Observed": 8.4516953507
+      },
+      {
+        "Date": "2021-05-07T00:00:00.000",
+        "Observed": 10.8207263603
+      },
+      {
+        "Date": "2021-05-08T00:00:00.000",
+        "Observed": 11.6609376021
+      },
+      {
+        "Date": "2021-05-09T00:00:00.000",
+        "Observed": 6.8015868213
+      },
+      {
+        "Date": "2021-05-10T00:00:00.000",
+        "Observed": 6.1483734182
+      },
+      {
+        "Date": "2021-05-11T00:00:00.000",
+        "Observed": 7.0470690414
+      },
+      {
+        "Date": "2021-05-12T00:00:00.000",
+        "Observed": 9.3111237765
+      },
+      {
+        "Date": "2021-05-13T00:00:00.000",
+        "Observed": 10.6347566046
+      },
+      {
+        "Date": "2021-05-14T00:00:00.000",
+        "Observed": 6.3082326392
+      },
+      {
+        "Date": "2021-05-15T00:00:00.000",
+        "Observed": 9.5762891825
+      },
+      {
+        "Date": "2021-05-16T00:00:00.000",
+        "Observed": 5.7257215667
+      },
+      {
+        "Date": "2021-05-17T00:00:00.000",
+        "Observed": 7.0263517074
+      },
+      {
+        "Date": "2021-05-18T00:00:00.000",
+        "Observed": 6.1701992963
+      },
+      {
+        "Date": "2021-05-19T00:00:00.000",
+        "Observed": 10.1806197263
+      },
+      {
+        "Date": "2021-05-20T00:00:00.000",
+        "Observed": 18.6354993138
+      },
+      {
+        "Date": "2021-05-21T00:00:00.000",
+        "Observed": 4.9235318131
+      },
+      {
+        "Date": "2021-05-22T00:00:00.000",
+        "Observed": 11.0614255895
+      },
+      {
+        "Date": "2021-05-23T00:00:00.000",
+        "Observed": 13.658229816
+      },
+      {
+        "Date": "2021-05-24T00:00:00.000",
+        "Observed": 14.809467188
+      },
+      {
+        "Date": "2021-05-25T00:00:00.000",
+        "Observed": 13.9468043424
+      },
+      {
+        "Date": "2021-05-26T00:00:00.000",
+        "Observed": 17.1848790469
+      },
+      {
+        "Date": "2021-05-27T00:00:00.000",
+        "Observed": 13.2385822834
+      },
+      {
+        "Date": "2021-05-28T00:00:00.000",
+        "Observed": 11.1532640438
+      },
+      {
+        "Date": "2021-05-29T00:00:00.000",
+        "Observed": 13.1066547896
+      },
+      {
+        "Date": "2021-05-30T00:00:00.000",
+        "Observed": 12.4950532017
+      },
+      {
+        "Date": "2021-05-31T00:00:00.000",
+        "Observed": 12.9745676451
+      },
+      {
+        "Date": "2021-06-01T00:00:00.000",
+        "Observed": 12.6054478439
+      },
+      {
+        "Date": "2021-06-02T00:00:00.000",
+        "Observed": 9.1926990862
+      },
+      {
+        "Date": "2021-06-03T00:00:00.000",
+        "Observed": 13.2292079555
+      },
+      {
+        "Date": "2021-06-04T00:00:00.000",
+        "Observed": 13.1198812108
+      },
+      {
+        "Date": "2021-06-05T00:00:00.000",
+        "Observed": 13.44918978
+      },
+      {
+        "Date": "2021-06-06T00:00:00.000",
+        "Observed": 19.4258723743
+      },
+      {
+        "Date": "2021-06-07T00:00:00.000",
+        "Observed": 17.3345738608
+      },
+      {
+        "Date": "2021-06-08T00:00:00.000",
+        "Observed": 18.9999745617
+      },
+      {
+        "Date": "2021-06-09T00:00:00.000",
+        "Observed": 16.3746676759
+      },
+      {
+        "Date": "2021-06-10T00:00:00.000",
+        "Observed": 15.2268472512
+      },
+      {
+        "Date": "2021-06-11T00:00:00.000",
+        "Observed": 18.5847899853
+      },
+      {
+        "Date": "2021-06-12T00:00:00.000",
+        "Observed": 17.5939071675
+      },
+      {
+        "Date": "2021-06-13T00:00:00.000",
+        "Observed": 14.9497853882
+      },
+      {
+        "Date": "2021-06-14T00:00:00.000",
+        "Observed": 9.9678820228
+      },
+      {
+        "Date": "2021-06-15T00:00:00.000",
+        "Observed": 8.1714096077
+      },
+      {
+        "Date": "2021-06-16T00:00:00.000",
+        "Observed": 11.6080458073
+      },
+      {
+        "Date": "2021-06-17T00:00:00.000",
+        "Observed": 14.4373178259
+      },
+      {
+        "Date": "2021-06-18T00:00:00.000",
+        "Observed": 15.2520860433
+      },
+      {
+        "Date": "2021-06-19T00:00:00.000",
+        "Observed": 18.5959848036
+      },
+      {
+        "Date": "2021-06-20T00:00:00.000",
+        "Observed": 19.9047752457
+      },
+      {
+        "Date": "2021-06-21T00:00:00.000",
+        "Observed": 22.6032334069
+      },
+      {
+        "Date": "2021-06-22T00:00:00.000",
+        "Observed": 26.3639275738
+      },
+      {
+        "Date": "2021-06-23T00:00:00.000",
+        "Observed": 28.2165608329
+      },
+      {
+        "Date": "2021-06-24T00:00:00.000",
+        "Observed": 26.1350462656
+      },
+      {
+        "Date": "2021-06-25T00:00:00.000",
+        "Observed": 26.1449427325
+      },
+      {
+        "Date": "2021-06-26T00:00:00.000",
+        "Observed": 26.2736933274
+      },
+      {
+        "Date": "2021-06-27T00:00:00.000",
+        "Observed": 23.3542833186
+      },
+      {
+        "Date": "2021-06-28T00:00:00.000",
+        "Observed": 19.1194847583
+      },
+      {
+        "Date": "2021-06-29T00:00:00.000",
+        "Observed": 19.5739111077
+      },
+      {
+        "Date": "2021-06-30T00:00:00.000",
+        "Observed": 19.9186688066
+      },
+      {
+        "Date": "2021-07-01T00:00:00.000",
+        "Observed": 23.1521333343
+      },
+      {
+        "Date": "2021-07-02T00:00:00.000",
+        "Observed": 10.979711437
+      },
+      {
+        "Date": "2021-07-03T00:00:00.000",
+        "Observed": 13.3437545311
+      },
+      {
+        "Date": "2021-07-04T00:00:00.000",
+        "Observed": 14.3775433655
+      },
+      {
+        "Date": "2021-07-05T00:00:00.000",
+        "Observed": 15.6485952341
+      },
+      {
+        "Date": "2021-07-06T00:00:00.000",
+        "Observed": 19.6585549858
+      },
+      {
+        "Date": "2021-07-07T00:00:00.000",
+        "Observed": 16.3673063842
+      },
+      {
+        "Date": "2021-07-08T00:00:00.000",
+        "Observed": 14.8081595966
+      },
+      {
+        "Date": "2021-07-09T00:00:00.000",
+        "Observed": 10.4483708962
+      },
+      {
+        "Date": "2021-07-10T00:00:00.000",
+        "Observed": 9.4749198736
+      },
+      {
+        "Date": "2021-07-11T00:00:00.000",
+        "Observed": 13.1059362861
+      },
+      {
+        "Date": "2021-07-12T00:00:00.000",
+        "Observed": 14.9738174988
+      },
+      {
+        "Date": "2021-07-13T00:00:00.000",
+        "Observed": 15.3072239308
+      },
+      {
+        "Date": "2021-07-14T00:00:00.000",
+        "Observed": 18.1957507713
+      },
+      {
+        "Date": "2021-07-15T00:00:00.000",
+        "Observed": 14.8808470436
+      },
+      {
+        "Date": "2021-07-16T00:00:00.000",
+        "Observed": 16.1770419394
+      },
+      {
+        "Date": "2021-07-17T00:00:00.000",
+        "Observed": 16.2787625519
+      },
+      {
+        "Date": "2021-07-18T00:00:00.000",
+        "Observed": 15.7878374153
+      },
+      {
+        "Date": "2021-07-19T00:00:00.000",
+        "Observed": 13.0601469392
+      },
+      {
+        "Date": "2021-07-20T00:00:00.000",
+        "Observed": 12.9279815787
+      },
+      {
+        "Date": "2021-07-21T00:00:00.000",
+        "Observed": 16.9425768621
+      },
+      {
+        "Date": "2021-07-22T00:00:00.000",
+        "Observed": 15.4812607737
+      },
+      {
+        "Date": "2021-07-23T00:00:00.000",
+        "Observed": 10.1633675552
+      },
+      {
+        "Date": "2021-07-24T00:00:00.000",
+        "Observed": 12.0877789067
+      },
+      {
+        "Date": "2021-07-25T00:00:00.000",
+        "Observed": 9.7075322423
+      },
+      {
+        "Date": "2021-07-26T00:00:00.000",
+        "Observed": 10.095531825
+      },
+      {
+        "Date": "2021-07-27T00:00:00.000",
+        "Observed": 12.4292758786
+      },
+      {
+        "Date": "2021-07-28T00:00:00.000",
+        "Observed": 11.4116327549
+      },
+      {
+        "Date": "2021-07-29T00:00:00.000",
+        "Observed": 16.7822133145
+      },
+      {
+        "Date": "2021-07-30T00:00:00.000",
+        "Observed": 22.0095781522
+      },
+      {
+        "Date": "2021-07-31T00:00:00.000",
+        "Observed": 26.4967053081
+      },
+      {
+        "Date": "2021-08-01T00:00:00.000",
+        "Observed": 23.7426069007
+      },
+      {
+        "Date": "2021-08-02T00:00:00.000",
+        "Observed": 25.2083606765
+      },
+      {
+        "Date": "2021-08-03T00:00:00.000",
+        "Observed": 21.1712165626
+      },
+      {
+        "Date": "2021-08-04T00:00:00.000",
+        "Observed": 48.0861367528
+      },
+      {
+        "Date": "2021-08-05T00:00:00.000",
+        "Observed": 26.2967187474
+      },
+      {
+        "Date": "2021-08-06T00:00:00.000",
+        "Observed": 31.2406653246
+      },
+      {
+        "Date": "2021-08-07T00:00:00.000",
+        "Observed": 28.8480382062
+      },
+      {
+        "Date": "2021-08-08T00:00:00.000",
+        "Observed": 18.1965327051
+      },
+      {
+        "Date": "2021-08-09T00:00:00.000",
+        "Observed": 17.006669219
+      },
+      {
+        "Date": "2021-08-10T00:00:00.000",
+        "Observed": 26.7392038471
+      },
+      {
+        "Date": "2021-08-11T00:00:00.000",
+        "Observed": 24.8455476072
+      },
+      {
+        "Date": "2021-08-12T00:00:00.000",
+        "Observed": 13.0696469989
+      },
+      {
+        "Date": "2021-08-13T00:00:00.000",
+        "Observed": 12.6415446775
+      },
+      {
+        "Date": "2021-08-14T00:00:00.000",
+        "Observed": 9.8256057851
+      },
+      {
+        "Date": "2021-08-15T00:00:00.000",
+        "Observed": 8.6945610628
+      },
+      {
+        "Date": "2021-08-16T00:00:00.000",
+        "Observed": 9.4848720393
+      },
+      {
+        "Date": "2021-08-17T00:00:00.000",
+        "Observed": 14.147011969
+      },
+      {
+        "Date": "2021-08-18T00:00:00.000",
+        "Observed": 23.5804893655
+      },
+      {
+        "Date": "2021-08-19T00:00:00.000",
+        "Observed": 22.6812509229
+      },
+      {
+        "Date": "2021-08-20T00:00:00.000",
+        "Observed": 13.5197736507
+      },
+      {
+        "Date": "2021-08-21T00:00:00.000",
+        "Observed": 10.5263377875
+      },
+      {
+        "Date": "2021-08-22T00:00:00.000",
+        "Observed": 11.9497272869
+      },
+      {
+        "Date": "2021-08-23T00:00:00.000",
+        "Observed": 12.500588467
+      },
+      {
+        "Date": "2021-08-24T00:00:00.000",
+        "Observed": 11.459561466
+      },
+      {
+        "Date": "2021-08-25T00:00:00.000",
+        "Observed": 13.5370062391
+      },
+      {
+        "Date": "2021-08-26T00:00:00.000",
+        "Observed": 19.0891188135
+      },
+      {
+        "Date": "2021-08-27T00:00:00.000",
+        "Observed": 18.3265714082
+      },
+      {
+        "Date": "2021-08-28T00:00:00.000",
+        "Observed": 12.1086814302
+      },
+      {
+        "Date": "2021-08-29T00:00:00.000",
+        "Observed": 11.0477997081
+      },
+      {
+        "Date": "2021-08-30T00:00:00.000",
+        "Observed": 12.3854838888
+      },
+      {
+        "Date": "2021-08-31T00:00:00.000",
+        "Observed": 14.9561186529
+      },
+      {
+        "Date": "2021-09-01T00:00:00.000",
+        "Observed": 14.847381097
+      },
+      {
+        "Date": "2021-09-02T00:00:00.000",
+        "Observed": 13.8736544146
+      },
+      {
+        "Date": "2021-09-03T00:00:00.000",
+        "Observed": 11.06770615
+      },
+      {
+        "Date": "2021-09-04T00:00:00.000",
+        "Observed": 11.5752081501
+      },
+      {
+        "Date": "2021-09-05T00:00:00.000",
+        "Observed": 11.3243804768
+      },
+      {
+        "Date": "2021-09-06T00:00:00.000",
+        "Observed": 9.8118587573
+      },
+      {
+        "Date": "2021-09-07T00:00:00.000",
+        "Observed": 9.2187633017
+      },
+      {
+        "Date": "2021-09-08T00:00:00.000",
+        "Observed": 10.0384529254
+      },
+      {
+        "Date": "2021-09-09T00:00:00.000",
+        "Observed": 8.9001336986
+      },
+      {
+        "Date": "2021-09-10T00:00:00.000",
+        "Observed": 12.6672248132
+      },
+      {
+        "Date": "2021-09-11T00:00:00.000",
+        "Observed": 15.5793357135
+      },
+      {
+        "Date": "2021-09-12T00:00:00.000",
+        "Observed": 18.4986663009
+      },
+      {
+        "Date": "2021-09-13T00:00:00.000",
+        "Observed": 18.6051601993
+      },
+      {
+        "Date": "2021-09-14T00:00:00.000",
+        "Observed": 19.32390505
+      },
+      {
+        "Date": "2021-09-15T00:00:00.000",
+        "Observed": 21.8280593103
+      },
+      {
+        "Date": "2021-09-16T00:00:00.000",
+        "Observed": 24.9153166589
+      },
+      {
+        "Date": "2021-09-17T00:00:00.000",
+        "Observed": 26.4790159786
+      },
+      {
+        "Date": "2021-09-18T00:00:00.000",
+        "Observed": 16.071866149
+      },
+      {
+        "Date": "2021-09-19T00:00:00.000",
+        "Observed": 15.1031282695
+      },
+      {
+        "Date": "2021-09-20T00:00:00.000",
+        "Observed": 15.3750331329
+      },
+      {
+        "Date": "2021-09-21T00:00:00.000",
+        "Observed": 14.2491028964
+      },
+      {
+        "Date": "2021-09-22T00:00:00.000",
+        "Observed": 18.3008585175
+      },
+      {
+        "Date": "2021-09-23T00:00:00.000",
+        "Observed": 9.0107922795
+      },
+      {
+        "Date": "2021-09-24T00:00:00.000",
+        "Observed": 11.7256998243
+      },
+      {
+        "Date": "2021-09-25T00:00:00.000",
+        "Observed": 15.1247924565
+      },
+      {
+        "Date": "2021-09-26T00:00:00.000",
+        "Observed": 13.1437518556
+      },
+      {
+        "Date": "2021-09-27T00:00:00.000",
+        "Observed": 14.838631763
+      },
+      {
+        "Date": "2021-09-28T00:00:00.000",
+        "Observed": 15.8973688402
+      },
+      {
+        "Date": "2021-09-29T00:00:00.000",
+        "Observed": 11.7712808026
+      },
+      {
+        "Date": "2021-09-30T00:00:00.000",
+        "Observed": 8.9437929444
+      },
+      {
+        "Date": "2021-10-01T00:00:00.000",
+        "Observed": 9.642749395
+      },
+      {
+        "Date": "2021-10-02T00:00:00.000",
+        "Observed": 8.9717131848
+      },
+      {
+        "Date": "2021-10-03T00:00:00.000",
+        "Observed": 8.897027064
+      },
+      {
+        "Date": "2021-10-04T00:00:00.000",
+        "Observed": 9.2102096145
+      },
+      {
+        "Date": "2021-10-05T00:00:00.000",
+        "Observed": 12.4202424055
+      },
+      {
+        "Date": "2021-10-06T00:00:00.000",
+        "Observed": 12.7221357559
+      },
+      {
+        "Date": "2021-10-07T00:00:00.000",
+        "Observed": 11.6416167449
+      },
+      {
+        "Date": "2021-10-08T00:00:00.000",
+        "Observed": 16.7886544815
+      },
+      {
+        "Date": "2021-10-09T00:00:00.000",
+        "Observed": 16.1554244921
+      },
+      {
+        "Date": "2021-10-10T00:00:00.000",
+        "Observed": 15.6381414214
+      },
+      {
+        "Date": "2021-10-11T00:00:00.000",
+        "Observed": 11.4407750567
+      },
+      {
+        "Date": "2021-10-12T00:00:00.000",
+        "Observed": 8.7777939275
+      },
+      {
+        "Date": "2021-10-13T00:00:00.000",
+        "Observed": 9.0648514386
+      },
+      {
+        "Date": "2021-10-14T00:00:00.000",
+        "Observed": 10.3994223552
+      },
+      {
+        "Date": "2021-10-15T00:00:00.000",
+        "Observed": 6.8566611096
+      },
+      {
+        "Date": "2021-10-16T00:00:00.000",
+        "Observed": 11.2802252298
+      },
+      {
+        "Date": "2021-10-17T00:00:00.000",
+        "Observed": 12.6118599636
+      },
+      {
+        "Date": "2021-10-18T00:00:00.000",
+        "Observed": 11.9901347851
+      },
+      {
+        "Date": "2021-10-19T00:00:00.000",
+        "Observed": 16.7257305244
+      },
+      {
+        "Date": "2021-10-20T00:00:00.000",
+        "Observed": 21.6994677653
+      },
+      {
+        "Date": "2021-10-21T00:00:00.000",
+        "Observed": 25.0639475523
+      },
+      {
+        "Date": "2021-10-22T00:00:00.000",
+        "Observed": 17.6462465579
+      },
+      {
+        "Date": "2021-10-23T00:00:00.000",
+        "Observed": 18.5638633873
+      },
+      {
+        "Date": "2021-10-24T00:00:00.000",
+        "Observed": 15.8012800356
+      },
+      {
+        "Date": "2021-10-25T00:00:00.000",
+        "Observed": 7.3589501382
+      },
+      {
+        "Date": "2021-10-26T00:00:00.000",
+        "Observed": 8.7191944348
+      },
+      {
+        "Date": "2021-10-27T00:00:00.000",
+        "Observed": 12.0196027788
+      },
+      {
+        "Date": "2021-10-28T00:00:00.000",
+        "Observed": 11.658540571
+      },
+      {
+        "Date": "2021-10-29T00:00:00.000",
+        "Observed": 10.4265419462
+      },
+      {
+        "Date": "2021-10-30T00:00:00.000",
+        "Observed": 20.5378360953
+      },
+      {
+        "Date": "2021-10-31T00:00:00.000",
+        "Observed": 23.4213055306
+      },
+      {
+        "Date": "2021-11-01T00:00:00.000",
+        "Observed": 25.1514513064
+      },
+      {
+        "Date": "2021-11-02T00:00:00.000",
+        "Observed": 19.0921820104
+      },
+      {
+        "Date": "2021-11-03T00:00:00.000",
+        "Observed": 14.1661829324
+      },
+      {
+        "Date": "2021-11-04T00:00:00.000",
+        "Observed": 19.0994773056
+      },
+      {
+        "Date": "2021-11-05T00:00:00.000",
+        "Observed": 24.2637532778
+      },
+      {
+        "Date": "2021-11-06T00:00:00.000",
+        "Observed": 35.1379484251
+      },
+      {
+        "Date": "2021-11-07T00:00:00.000",
+        "Observed": 25.8678363319
+      },
+      {
+        "Date": "2021-11-08T00:00:00.000",
+        "Observed": 33.5475693163
+      },
+      {
+        "Date": "2021-11-09T00:00:00.000",
+        "Observed": 33.7814125351
+      },
+      {
+        "Date": "2021-11-10T00:00:00.000",
+        "Observed": 9.0361769776
+      },
+      {
+        "Date": "2021-11-11T00:00:00.000",
+        "Observed": 8.9835259061
+      },
+      {
+        "Date": "2021-11-12T00:00:00.000",
+        "Observed": 16.713324543
+      },
+      {
+        "Date": "2021-11-13T00:00:00.000",
+        "Observed": 27.3876593678
+      },
+      {
+        "Date": "2021-11-14T00:00:00.000",
+        "Observed": 32.3335506561
+      },
+      {
+        "Date": "2021-11-15T00:00:00.000",
+        "Observed": 31.5859405449
+      },
+      {
+        "Date": "2021-11-16T00:00:00.000",
+        "Observed": 21.938791713
+      },
+      {
+        "Date": "2021-11-17T00:00:00.000",
+        "Observed": 18.2577840789
+      },
+      {
+        "Date": "2021-11-18T00:00:00.000",
+        "Observed": 20.0267176173
+      },
+      {
+        "Date": "2021-11-19T00:00:00.000",
+        "Observed": 23.3629407613
+      },
+      {
+        "Date": "2021-11-20T00:00:00.000",
+        "Observed": 18.4938964849
+      },
+      {
+        "Date": "2021-11-21T00:00:00.000",
+        "Observed": 22.7698982414
+      },
+      {
+        "Date": "2021-11-22T00:00:00.000",
+        "Observed": 21.2205424928
+      },
+      {
+        "Date": "2021-11-23T00:00:00.000",
+        "Observed": 13.4379857865
+      },
+      {
+        "Date": "2021-11-24T00:00:00.000",
+        "Observed": 10.2437865404
+      },
+      {
+        "Date": "2021-11-25T00:00:00.000",
+        "Observed": 12.2338732861
+      },
+      {
+        "Date": "2021-11-26T00:00:00.000",
+        "Observed": 26.448694971
+      },
+      {
+        "Date": "2021-11-27T00:00:00.000",
+        "Observed": 14.7915281583
+      },
+      {
+        "Date": "2021-11-28T00:00:00.000",
+        "Observed": 13.8733704318
+      },
+      {
+        "Date": "2021-11-29T00:00:00.000",
+        "Observed": 15.1841943846
+      },
+      {
+        "Date": "2021-11-30T00:00:00.000",
+        "Observed": 6.2735888249
+      },
+      {
+        "Date": "2021-12-01T00:00:00.000",
+        "Observed": 11.6207485313
+      },
+      {
+        "Date": "2021-12-02T00:00:00.000",
+        "Observed": 15.4754852304
+      },
+      {
+        "Date": "2021-12-03T00:00:00.000",
+        "Observed": 10.0467448913
+      },
+      {
+        "Date": "2021-12-04T00:00:00.000",
+        "Observed": 18.0965184679
+      },
+      {
+        "Date": "2021-12-05T00:00:00.000",
+        "Observed": 24.3377935093
+      },
+      {
+        "Date": "2021-12-06T00:00:00.000",
+        "Observed": 12.2957440135
+      },
+      {
+        "Date": "2021-12-07T00:00:00.000",
+        "Observed": 8.5908745763
+      },
+      {
+        "Date": "2021-12-08T00:00:00.000",
+        "Observed": 11.8577180449
+      },
+      {
+        "Date": "2021-12-09T00:00:00.000",
+        "Observed": 11.3952283014
+      },
+      {
+        "Date": "2021-12-10T00:00:00.000",
+        "Observed": 9.0577400242
+      },
+      {
+        "Date": "2021-12-11T00:00:00.000",
+        "Observed": 7.1629021167
+      },
+      {
+        "Date": "2021-12-12T00:00:00.000",
+        "Observed": 11.1636847304
+      },
+      {
+        "Date": "2021-12-13T00:00:00.000",
+        "Observed": 14.3347278692
+      },
+      {
+        "Date": "2021-12-14T00:00:00.000",
+        "Observed": 9.1925239707
+      },
+      {
+        "Date": "2021-12-15T00:00:00.000",
+        "Observed": 11.4809193452
+      },
+      {
+        "Date": "2021-12-16T00:00:00.000",
+        "Observed": 22.0650403952
+      },
+      {
+        "Date": "2021-12-17T00:00:00.000",
+        "Observed": 23.8045805794
+      },
+      {
+        "Date": "2021-12-18T00:00:00.000",
+        "Observed": 6.941093816
+      },
+      {
+        "Date": "2021-12-19T00:00:00.000",
+        "Observed": 16.6076642516
+      },
+      {
+        "Date": "2021-12-20T00:00:00.000",
+        "Observed": 27.6723806775
+      },
+      {
+        "Date": "2021-12-21T00:00:00.000",
+        "Observed": 16.0982051701
+      },
+      {
+        "Date": "2021-12-22T00:00:00.000",
+        "Observed": 16.8073825589
+      },
+      {
+        "Date": "2021-12-23T00:00:00.000",
+        "Observed": 19.3449396061
+      },
+      {
+        "Date": "2021-12-24T00:00:00.000",
+        "Observed": 30.4600958151
+      },
+      {
+        "Date": "2021-12-25T00:00:00.000",
+        "Observed": 35.3266153345
+      },
+      {
+        "Date": "2021-12-26T00:00:00.000",
+        "Observed": 29.8647191395
+      },
+      {
+        "Date": "2021-12-27T00:00:00.000",
+        "Observed": 15.338916575
+      },
+      {
+        "Date": "2021-12-28T00:00:00.000",
+        "Observed": 10.6429752538
+      },
+      {
+        "Date": "2021-12-29T00:00:00.000",
+        "Observed": 20.2224297496
+      },
+      {
+        "Date": "2021-12-30T00:00:00.000",
+        "Observed": 12.0896788913
+      },
+      {
+        "Date": "2021-12-31T00:00:00.000",
+        "Observed": 20.714124591
+      },
+      {
+        "Date": "2022-01-01T00:00:00.000",
+        "Observed": 37.4620128096
+      },
+      {
+        "Date": "2022-01-02T00:00:00.000",
+        "Observed": 23.3124761629
+      },
+      {
+        "Date": "2022-01-03T00:00:00.000",
+        "Observed": 22.7180063219
+      },
+      {
+        "Date": "2022-01-04T00:00:00.000",
+        "Observed": 19.6677922986
+      },
+      {
+        "Date": "2022-01-05T00:00:00.000",
+        "Observed": 20.0068493241
+      },
+      {
+        "Date": "2022-01-06T00:00:00.000",
+        "Observed": 20.5810988105
+      },
+      {
+        "Date": "2022-01-07T00:00:00.000",
+        "Observed": 14.7478690787
+      },
+      {
+        "Date": "2022-01-08T00:00:00.000",
+        "Observed": 19.9370077274
+      },
+      {
+        "Date": "2022-01-09T00:00:00.000",
+        "Observed": 21.0366422539
+      },
+      {
+        "Date": "2022-01-10T00:00:00.000",
+        "Observed": 22.8662224152
+      },
+      {
+        "Date": "2022-01-11T00:00:00.000",
+        "Observed": 8.9019850629
+      },
+      {
+        "Date": "2022-01-12T00:00:00.000",
+        "Observed": 7.1467110037
+      },
+      {
+        "Date": "2022-01-13T00:00:00.000",
+        "Observed": 11.4648012202
+      },
+      {
+        "Date": "2022-01-14T00:00:00.000",
+        "Observed": 31.2777046786
+      },
+      {
+        "Date": "2022-01-15T00:00:00.000",
+        "Observed": 26.1918048301
+      },
+      {
+        "Date": "2022-01-16T00:00:00.000",
+        "Observed": 28.4329622973
+      },
+      {
+        "Date": "2022-01-17T00:00:00.000",
+        "Observed": 39.6621763371
+      },
+      {
+        "Date": "2022-01-18T00:00:00.000",
+        "Observed": 16.3494117076
+      },
+      {
+        "Date": "2022-01-19T00:00:00.000",
+        "Observed": 20.3075194571
+      },
+      {
+        "Date": "2022-01-20T00:00:00.000",
+        "Observed": 25.6300057512
+      },
+      {
+        "Date": "2022-01-21T00:00:00.000",
+        "Observed": 21.5290400587
+      },
+      {
+        "Date": "2022-01-22T00:00:00.000",
+        "Observed": 12.4336767485
+      },
+      {
+        "Date": "2022-01-23T00:00:00.000",
+        "Observed": 20.3445852492
+      },
+      {
+        "Date": "2022-01-24T00:00:00.000",
+        "Observed": 16.6297699377
+      },
+      {
+        "Date": "2022-01-25T00:00:00.000",
+        "Observed": 19.1811565021
+      },
+      {
+        "Date": "2022-01-26T00:00:00.000",
+        "Observed": 26.3875334107
+      },
+      {
+        "Date": "2022-01-27T00:00:00.000",
+        "Observed": 19.1142882156
+      },
+      {
+        "Date": "2022-01-28T00:00:00.000",
+        "Observed": 36.60723904
+      },
+      {
+        "Date": "2022-01-29T00:00:00.000",
+        "Observed": 25.5583014419
+      },
+      {
+        "Date": "2022-01-30T00:00:00.000",
+        "Observed": 29.9399738887
+      },
+      {
+        "Date": "2022-01-31T00:00:00.000",
+        "Observed": 25.4659170086
+      },
+      {
+        "Date": "2022-02-01T00:00:00.000",
+        "Observed": 10.2301750686
+      },
+      {
+        "Date": "2022-02-02T00:00:00.000",
+        "Observed": 8.5354548437
+      },
+      {
+        "Date": "2022-02-03T00:00:00.000",
+        "Observed": 8.3726220017
+      },
+      {
+        "Date": "2022-02-04T00:00:00.000",
+        "Observed": 20.6566324817
+      },
+      {
+        "Date": "2022-02-05T00:00:00.000",
+        "Observed": 36.3508047825
+      },
+      {
+        "Date": "2022-02-06T00:00:00.000",
+        "Observed": 38.6356042085
+      },
+      {
+        "Date": "2022-02-07T00:00:00.000",
+        "Observed": 27.6296831574
+      },
+      {
+        "Date": "2022-02-08T00:00:00.000",
+        "Observed": 7.1666880251
+      },
+      {
+        "Date": "2022-02-09T00:00:00.000",
+        "Observed": 12.9276527658
+      },
+      {
+        "Date": "2022-02-10T00:00:00.000",
+        "Observed": 16.94534038
+      },
+      {
+        "Date": "2022-02-11T00:00:00.000",
+        "Observed": 26.6964946354
+      },
+      {
+        "Date": "2022-02-12T00:00:00.000",
+        "Observed": 30.6301186207
+      },
+      {
+        "Date": "2022-02-13T00:00:00.000",
+        "Observed": 23.4967166101
+      },
+      {
+        "Date": "2022-02-14T00:00:00.000",
+        "Observed": 23.9435660223
+      },
+      {
+        "Date": "2022-02-15T00:00:00.000",
+        "Observed": 35.1218039381
+      },
+      {
+        "Date": "2022-02-16T00:00:00.000",
+        "Observed": 23.5224290008
+      },
+      {
+        "Date": "2022-02-17T00:00:00.000",
+        "Observed": 17.4610742517
+      },
+      {
+        "Date": "2022-02-18T00:00:00.000",
+        "Observed": 20.9772158573
+      },
+      {
+        "Date": "2022-02-19T00:00:00.000",
+        "Observed": 15.5255260906
+      },
+      {
+        "Date": "2022-02-20T00:00:00.000",
+        "Observed": 26.7347917982
+      },
+      {
+        "Date": "2022-02-21T00:00:00.000",
+        "Observed": 18.9644687725
+      },
+      {
+        "Date": "2022-02-22T00:00:00.000",
+        "Observed": 17.6059321547
+      },
+      {
+        "Date": "2022-02-23T00:00:00.000",
+        "Observed": 11.430224811
+      },
+      {
+        "Date": "2022-02-24T00:00:00.000",
+        "Observed": 14.5633147869
+      },
+      {
+        "Date": "2022-02-25T00:00:00.000",
+        "Observed": 14.1016320734
+      },
+      {
+        "Date": "2022-02-26T00:00:00.000",
+        "Observed": 16.3402735413
+      },
+      {
+        "Date": "2022-02-27T00:00:00.000",
+        "Observed": 14.7269177443
+      },
+      {
+        "Date": "2022-02-28T00:00:00.000",
+        "Observed": 13.8244635869
+      },
+      {
+        "Date": "2022-03-01T00:00:00.000",
+        "Observed": 12.6207857551
+      },
+      {
+        "Date": "2022-03-02T00:00:00.000",
+        "Observed": 13.8312604261
+      },
+      {
+        "Date": "2022-03-03T00:00:00.000",
+        "Observed": 19.8229698288
+      },
+      {
+        "Date": "2022-03-04T00:00:00.000",
+        "Observed": 24.6768173972
+      },
+      {
+        "Date": "2022-03-05T00:00:00.000",
+        "Observed": 26.6045197593
+      },
+      {
+        "Date": "2022-03-06T00:00:00.000",
+        "Observed": 18.6182873417
+      },
+      {
+        "Date": "2022-03-07T00:00:00.000",
+        "Observed": 16.2825040406
+      },
+      {
+        "Date": "2022-03-08T00:00:00.000",
+        "Observed": 11.105307608
+      },
+      {
+        "Date": "2022-03-09T00:00:00.000",
+        "Observed": 12.2877316771
+      },
+      {
+        "Date": "2022-03-10T00:00:00.000",
+        "Observed": 15.0831610923
+      },
+      {
+        "Date": "2022-03-11T00:00:00.000",
+        "Observed": 17.3806083343
+      },
+      {
+        "Date": "2022-03-12T00:00:00.000",
+        "Observed": 20.8398112038
+      },
+      {
+        "Date": "2022-03-13T00:00:00.000",
+        "Observed": 29.1690969517
+      },
+      {
+        "Date": "2022-03-14T00:00:00.000",
+        "Observed": 24.7585860232
+      },
+      {
+        "Date": "2022-03-15T00:00:00.000",
+        "Observed": 28.3929895856
+      },
+      {
+        "Date": "2022-03-16T00:00:00.000",
+        "Observed": 34.5626766749
+      },
+      {
+        "Date": "2022-03-17T00:00:00.000",
+        "Observed": 27.8071245361
+      },
+      {
+        "Date": "2022-03-18T00:00:00.000",
+        "Observed": 13.1521052695
+      },
+      {
+        "Date": "2022-03-19T00:00:00.000",
+        "Observed": 13.266067879
+      },
+      {
+        "Date": "2022-03-20T00:00:00.000",
+        "Observed": 15.2901947367
+      },
+      {
+        "Date": "2022-03-21T00:00:00.000",
+        "Observed": 12.1749896828
+      },
+      {
+        "Date": "2022-03-22T00:00:00.000",
+        "Observed": 14.2088827062
+      },
+      {
+        "Date": "2022-03-23T00:00:00.000",
+        "Observed": 16.0546572209
+      },
+      {
+        "Date": "2022-03-24T00:00:00.000",
+        "Observed": 16.7272816666
+      },
+      {
+        "Date": "2022-03-25T00:00:00.000",
+        "Observed": 22.4272268282
+      },
+      {
+        "Date": "2022-03-26T00:00:00.000",
+        "Observed": 24.2502608623
+      },
+      {
+        "Date": "2022-03-27T00:00:00.000",
+        "Observed": 32.7162029197
+      },
+      {
+        "Date": "2022-03-28T00:00:00.000",
+        "Observed": 26.3467218313
+      },
+      {
+        "Date": "2022-03-29T00:00:00.000",
+        "Observed": 25.6999233346
+      },
+      {
+        "Date": "2022-03-30T00:00:00.000",
+        "Observed": 27.6056745051
+      },
+      {
+        "Date": "2022-03-31T00:00:00.000",
+        "Observed": 24.9709635338
+      },
+      {
+        "Date": "2022-04-01T00:00:00.000",
+        "Observed": 26.7944953587
+      },
+      {
+        "Date": "2022-04-02T00:00:00.000",
+        "Observed": 14.047829405
+      },
+      {
+        "Date": "2022-04-03T00:00:00.000",
+        "Observed": 7.9116342072
+      },
+      {
+        "Date": "2022-04-04T00:00:00.000",
+        "Observed": 9.0067427294
+      },
+      {
+        "Date": "2022-04-05T00:00:00.000",
+        "Observed": 11.1670075242
+      },
+      {
+        "Date": "2022-04-06T00:00:00.000",
+        "Observed": 19.0435686956
+      },
+      {
+        "Date": "2022-04-07T00:00:00.000",
+        "Observed": 16.1347021802
+      },
+      {
+        "Date": "2022-04-08T00:00:00.000",
+        "Observed": 9.7777864691
+      },
+      {
+        "Date": "2022-04-09T00:00:00.000",
+        "Observed": 10.4873333762
+      },
+      {
+        "Date": "2022-04-10T00:00:00.000",
+        "Observed": 7.8435239389
+      },
+      {
+        "Date": "2022-04-11T00:00:00.000",
+        "Observed": 7.6078449115
+      },
+      {
+        "Date": "2022-04-12T00:00:00.000",
+        "Observed": 12.7762259754
+      },
+      {
+        "Date": "2022-04-13T00:00:00.000",
+        "Observed": 16.6733103325
+      },
+      {
+        "Date": "2022-04-14T00:00:00.000",
+        "Observed": 18.5777261207
+      },
+      {
+        "Date": "2022-04-15T00:00:00.000",
+        "Observed": 14.9868085892
+      },
+      {
+        "Date": "2022-04-16T00:00:00.000",
+        "Observed": 18.2338427878
+      },
+      {
+        "Date": "2022-04-17T00:00:00.000",
+        "Observed": 13.3384937563
+      },
+      {
+        "Date": "2022-04-18T00:00:00.000",
+        "Observed": 4.9623374045
+      },
+      {
+        "Date": "2022-04-19T00:00:00.000",
+        "Observed": 8.7235376697
+      },
+      {
+        "Date": "2022-04-20T00:00:00.000",
+        "Observed": 13.4115294106
+      },
+      {
+        "Date": "2022-04-21T00:00:00.000",
+        "Observed": 15.7953459484
+      },
+      {
+        "Date": "2022-04-22T00:00:00.000",
+        "Observed": 13.9038144528
+      },
+      {
+        "Date": "2022-04-23T00:00:00.000",
+        "Observed": 18.431903815
+      },
+      {
+        "Date": "2022-04-24T00:00:00.000",
+        "Observed": 23.6539553441
+      },
+      {
+        "Date": "2022-04-25T00:00:00.000",
+        "Observed": 15.8613241483
+      },
+      {
+        "Date": "2022-04-26T00:00:00.000",
+        "Observed": 13.0689646107
+      },
+      {
+        "Date": "2022-04-27T00:00:00.000",
+        "Observed": 18.1478717417
+      },
+      {
+        "Date": "2022-04-28T00:00:00.000",
+        "Observed": 19.3668276843
+      },
+      {
+        "Date": "2022-04-29T00:00:00.000",
+        "Observed": 11.1609019286
+      },
+      {
+        "Date": "2022-04-30T00:00:00.000",
+        "Observed": 12.1775404506
+      },
+      {
+        "Date": "2022-05-01T00:00:00.000",
+        "Observed": 11.785268172
+      },
+      {
+        "Date": "2022-05-02T00:00:00.000",
+        "Observed": 13.0427458567
+      },
+      {
+        "Date": "2022-05-03T00:00:00.000",
+        "Observed": 13.1650384001
+      },
+      {
+        "Date": "2022-05-04T00:00:00.000",
+        "Observed": 12.2335625178
+      },
+      {
+        "Date": "2022-05-05T00:00:00.000",
+        "Observed": 18.811586787
+      },
+      {
+        "Date": "2022-05-06T00:00:00.000",
+        "Observed": 14.1392571135
+      },
+      {
+        "Date": "2022-05-07T00:00:00.000",
+        "Observed": 11.1354915053
+      },
+      {
+        "Date": "2022-05-08T00:00:00.000",
+        "Observed": 9.9821972794
+      },
+      {
+        "Date": "2022-05-09T00:00:00.000",
+        "Observed": 6.0931593709
+      },
+      {
+        "Date": "2022-05-10T00:00:00.000",
+        "Observed": 5.4166946533
+      },
+      {
+        "Date": "2022-05-11T00:00:00.000",
+        "Observed": 11.6551322777
+      },
+      {
+        "Date": "2022-05-12T00:00:00.000",
+        "Observed": 16.3353028239
+      },
+      {
+        "Date": "2022-05-13T00:00:00.000",
+        "Observed": 18.0050380118
+      },
+      {
+        "Date": "2022-05-14T00:00:00.000",
+        "Observed": 23.3815227414
+      },
+      {
+        "Date": "2022-05-15T00:00:00.000",
+        "Observed": 24.59093004
+      },
+      {
+        "Date": "2022-05-16T00:00:00.000",
+        "Observed": 24.8529728368
+      },
+      {
+        "Date": "2022-05-17T00:00:00.000",
+        "Observed": 25.9419800782
+      },
+      {
+        "Date": "2022-05-18T00:00:00.000",
+        "Observed": 20.3966797086
+      },
+      {
+        "Date": "2022-05-19T00:00:00.000",
+        "Observed": 5.6419361667
+      },
+      {
+        "Date": "2022-05-20T00:00:00.000",
+        "Observed": 6.4224641789
+      },
+      {
+        "Date": "2022-05-21T00:00:00.000",
+        "Observed": 8.5626963002
+      },
+      {
+        "Date": "2022-05-22T00:00:00.000",
+        "Observed": 12.8456143736
+      },
+      {
+        "Date": "2022-05-23T00:00:00.000",
+        "Observed": 15.6176948596
+      },
+      {
+        "Date": "2022-05-24T00:00:00.000",
+        "Observed": 21.0160125897
+      },
+      {
+        "Date": "2022-05-25T00:00:00.000",
+        "Observed": 23.0155763835
+      },
+      {
+        "Date": "2022-05-26T00:00:00.000",
+        "Observed": 22.5578096771
+      },
+      {
+        "Date": "2022-05-27T00:00:00.000",
+        "Observed": 23.2875347529
+      },
+      {
+        "Date": "2022-05-28T00:00:00.000",
+        "Observed": 23.6650699251
+      },
+      {
+        "Date": "2022-05-29T00:00:00.000",
+        "Observed": 13.1769094889
+      },
+      {
+        "Date": "2022-05-30T00:00:00.000",
+        "Observed": 11.1105817809
+      },
+      {
+        "Date": "2022-05-31T00:00:00.000",
+        "Observed": 13.8607553323
+      },
+      {
+        "Date": "2022-06-01T00:00:00.000",
+        "Observed": 15.6210251571
+      },
+      {
+        "Date": "2022-06-02T00:00:00.000",
+        "Observed": 15.761539528
+      },
+      {
+        "Date": "2022-06-03T00:00:00.000",
+        "Observed": 15.5249629375
+      },
+      {
+        "Date": "2022-06-04T00:00:00.000",
+        "Observed": 13.1028937792
+      },
+      {
+        "Date": "2022-06-05T00:00:00.000",
+        "Observed": 18.2466652148
+      },
+      {
+        "Date": "2022-06-06T00:00:00.000",
+        "Observed": 22.4784149044
+      },
+      {
+        "Date": "2022-06-07T00:00:00.000",
+        "Observed": 11.097064838
+      },
+      {
+        "Date": "2022-06-08T00:00:00.000",
+        "Observed": 13.575787803
+      },
+      {
+        "Date": "2022-06-09T00:00:00.000",
+        "Observed": 15.2394368558
+      },
+      {
+        "Date": "2022-06-10T00:00:00.000",
+        "Observed": 14.199006435
+      },
+      {
+        "Date": "2022-06-11T00:00:00.000",
+        "Observed": 8.5585224198
+      },
+      {
+        "Date": "2022-06-12T00:00:00.000",
+        "Observed": 8.6550871982
+      },
+      {
+        "Date": "2022-06-13T00:00:00.000",
+        "Observed": 12.1104997046
+      },
+      {
+        "Date": "2022-06-14T00:00:00.000",
+        "Observed": 16.8148695003
+      },
+      {
+        "Date": "2022-06-15T00:00:00.000",
+        "Observed": 14.9602241673
+      },
+      {
+        "Date": "2022-06-16T00:00:00.000",
+        "Observed": 10.5314673314
+      },
+      {
+        "Date": "2022-06-17T00:00:00.000",
+        "Observed": 11.2567548849
+      },
+      {
+        "Date": "2022-06-18T00:00:00.000",
+        "Observed": 14.6476775823
+      },
+      {
+        "Date": "2022-06-19T00:00:00.000",
+        "Observed": 10.1316544271
+      },
+      {
+        "Date": "2022-06-20T00:00:00.000",
+        "Observed": 9.16499155
+      },
+      {
+        "Date": "2022-06-21T00:00:00.000",
+        "Observed": 16.5266631161
+      },
+      {
+        "Date": "2022-06-22T00:00:00.000",
+        "Observed": 21.9267474601
+      },
+      {
+        "Date": "2022-06-23T00:00:00.000",
+        "Observed": 21.2902937732
+      },
+      {
+        "Date": "2022-06-24T00:00:00.000",
+        "Observed": 16.0918313264
+      },
+      {
+        "Date": "2022-06-25T00:00:00.000",
+        "Observed": 15.1416126068
+      },
+      {
+        "Date": "2022-06-26T00:00:00.000",
+        "Observed": 16.5774212439
+      },
+      {
+        "Date": "2022-06-27T00:00:00.000",
+        "Observed": 15.7014381602
+      },
+      {
+        "Date": "2022-06-28T00:00:00.000",
+        "Observed": 12.6386139569
+      },
+      {
+        "Date": "2022-06-29T00:00:00.000",
+        "Observed": 10.316421888
+      },
+      {
+        "Date": "2022-06-30T00:00:00.000",
+        "Observed": 11.3057549184
+      },
+      {
+        "Date": "2022-07-01T00:00:00.000",
+        "Observed": 9.3977859082
+      },
+      {
+        "Date": "2022-07-02T00:00:00.000",
+        "Observed": 12.7902432288
+      },
+      {
+        "Date": "2022-07-03T00:00:00.000",
+        "Observed": 10.5389927372
+      },
+      {
+        "Date": "2022-07-04T00:00:00.000",
+        "Observed": 5.7010771359
+      },
+      {
+        "Date": "2022-07-05T00:00:00.000",
+        "Observed": 7.9239972808
+      },
+      {
+        "Date": "2022-07-06T00:00:00.000",
+        "Observed": 12.8878473804
+      },
+      {
+        "Date": "2022-07-07T00:00:00.000",
+        "Observed": 17.2490653423
+      },
+      {
+        "Date": "2022-07-08T00:00:00.000",
+        "Observed": 19.7202274508
+      },
+      {
+        "Date": "2022-07-09T00:00:00.000",
+        "Observed": 8.444765488
+      },
+      {
+        "Date": "2022-07-10T00:00:00.000",
+        "Observed": 10.4178268041
+      },
+      {
+        "Date": "2022-07-11T00:00:00.000",
+        "Observed": 12.2943080473
+      },
+      {
+        "Date": "2022-07-12T00:00:00.000",
+        "Observed": 11.1877554568
+      },
+      {
+        "Date": "2022-07-13T00:00:00.000",
+        "Observed": 11.138612528
+      },
+      {
+        "Date": "2022-07-14T00:00:00.000",
+        "Observed": 7.675264706
+      },
+      {
+        "Date": "2022-07-15T00:00:00.000",
+        "Observed": 6.3759515381
+      },
+      {
+        "Date": "2022-07-16T00:00:00.000",
+        "Observed": 10.7760976505
+      },
+      {
+        "Date": "2022-07-17T00:00:00.000",
+        "Observed": 13.4535747105
+      },
+      {
+        "Date": "2022-07-18T00:00:00.000",
+        "Observed": 11.0239276089
+      },
+      {
+        "Date": "2022-07-19T00:00:00.000",
+        "Observed": 6.0532309797
+      },
+      {
+        "Date": "2022-07-20T00:00:00.000",
+        "Observed": 6.3301564885
+      },
+      {
+        "Date": "2022-07-21T00:00:00.000",
+        "Observed": 9.2631680388
+      },
+      {
+        "Date": "2022-07-22T00:00:00.000",
+        "Observed": 14.9653764184
+      },
+      {
+        "Date": "2022-07-23T00:00:00.000",
+        "Observed": 12.966917447
+      },
+      {
+        "Date": "2022-07-24T00:00:00.000",
+        "Observed": 18.4001486503
+      },
+      {
+        "Date": "2022-07-25T00:00:00.000",
+        "Observed": 22.2594271359
+      },
+      {
+        "Date": "2022-07-26T00:00:00.000",
+        "Observed": 13.6139727609
+      },
+      {
+        "Date": "2022-07-27T00:00:00.000",
+        "Observed": 17.0187213896
+      },
+      {
+        "Date": "2022-07-28T00:00:00.000",
+        "Observed": 11.1449019723
+      },
+      {
+        "Date": "2022-07-29T00:00:00.000",
+        "Observed": 9.0083238744
+      },
+      {
+        "Date": "2022-07-30T00:00:00.000",
+        "Observed": 10.2013646582
+      },
+      {
+        "Date": "2022-07-31T00:00:00.000",
+        "Observed": 17.2065494429
+      },
+      {
+        "Date": "2022-08-01T00:00:00.000",
+        "Observed": 18.0521666063
+      },
+      {
+        "Date": "2022-08-02T00:00:00.000",
+        "Observed": 12.5829033279
+      },
+      {
+        "Date": "2022-08-03T00:00:00.000",
+        "Observed": 10.0015111607
+      },
+      {
+        "Date": "2022-08-04T00:00:00.000",
+        "Observed": 8.3478077303
+      },
+      {
+        "Date": "2022-08-05T00:00:00.000",
+        "Observed": 11.3215669891
+      },
+      {
+        "Date": "2022-08-06T00:00:00.000",
+        "Observed": 11.0983954646
+      },
+      {
+        "Date": "2022-08-07T00:00:00.000",
+        "Observed": 12.0392153132
+      },
+      {
+        "Date": "2022-08-08T00:00:00.000",
+        "Observed": 10.3930337667
+      },
+      {
+        "Date": "2022-08-09T00:00:00.000",
+        "Observed": 8.5042104158
+      },
+      {
+        "Date": "2022-08-10T00:00:00.000",
+        "Observed": 11.3307720921
+      },
+      {
+        "Date": "2022-08-11T00:00:00.000",
+        "Observed": 14.2500729449
+      },
+      {
+        "Date": "2022-08-12T00:00:00.000",
+        "Observed": 12.535848043
+      },
+      {
+        "Date": "2022-08-13T00:00:00.000",
+        "Observed": 15.3707756487
+      },
+      {
+        "Date": "2022-08-14T00:00:00.000",
+        "Observed": 15.6316616394
+      },
+      {
+        "Date": "2022-08-15T00:00:00.000",
+        "Observed": 9.3377605378
+      },
+      {
+        "Date": "2022-08-16T00:00:00.000",
+        "Observed": 12.5605558228
+      },
+      {
+        "Date": "2022-08-17T00:00:00.000",
+        "Observed": 13.8277676511
+      },
+      {
+        "Date": "2022-08-18T00:00:00.000",
+        "Observed": 13.9782963137
+      },
+      {
+        "Date": "2022-08-19T00:00:00.000",
+        "Observed": 18.6954097529
+      },
+      {
+        "Date": "2022-08-20T00:00:00.000",
+        "Observed": 20.1950980739
+      },
+      {
+        "Date": "2022-08-21T00:00:00.000",
+        "Observed": 17.4816083456
+      },
+      {
+        "Date": "2022-08-22T00:00:00.000",
+        "Observed": 17.3944193011
+      },
+      {
+        "Date": "2022-08-23T00:00:00.000",
+        "Observed": 20.1672055413
+      },
+      {
+        "Date": "2022-08-24T00:00:00.000",
+        "Observed": 16.1272593818
+      },
+      {
+        "Date": "2022-08-25T00:00:00.000",
+        "Observed": 11.2778144415
+      },
+      {
+        "Date": "2022-08-26T00:00:00.000",
+        "Observed": 16.7692609503
+      },
+      {
+        "Date": "2022-08-27T00:00:00.000",
+        "Observed": 22.7074094224
+      },
+      {
+        "Date": "2022-08-28T00:00:00.000",
+        "Observed": 25.4161606732
+      },
+      {
+        "Date": "2022-08-29T00:00:00.000",
+        "Observed": 24.1090726236
+      },
+      {
+        "Date": "2022-08-30T00:00:00.000",
+        "Observed": 21.6541038692
+      },
+      {
+        "Date": "2022-08-31T00:00:00.000",
+        "Observed": 22.030483149
+      },
+      {
+        "Date": "2022-09-01T00:00:00.000",
+        "Observed": 25.1767626805
+      },
+      {
+        "Date": "2022-09-02T00:00:00.000",
+        "Observed": 24.7311362846
+      },
+      {
+        "Date": "2022-09-03T00:00:00.000",
+        "Observed": 22.60653496
+      },
+      {
+        "Date": "2022-09-04T00:00:00.000",
+        "Observed": 18.7971438198
+      },
+      {
+        "Date": "2022-09-05T00:00:00.000",
+        "Observed": 9.8955454175
+      },
+      {
+        "Date": "2022-09-06T00:00:00.000",
+        "Observed": 6.6529214034
+      },
+      {
+        "Date": "2022-09-07T00:00:00.000",
+        "Observed": 7.51398389
+      },
+      {
+        "Date": "2022-09-08T00:00:00.000",
+        "Observed": 8.7156649987
+      },
+      {
+        "Date": "2022-09-09T00:00:00.000",
+        "Observed": 13.5140107862
+      },
+      {
+        "Date": "2022-09-10T00:00:00.000",
+        "Observed": 17.9854973615
+      },
+      {
+        "Date": "2022-09-11T00:00:00.000",
+        "Observed": 12.8466193406
+      },
+      {
+        "Date": "2022-09-12T00:00:00.000",
+        "Observed": 8.9696311448
+      },
+      {
+        "Date": "2022-09-13T00:00:00.000",
+        "Observed": 10.0857571687
+      },
+      {
+        "Date": "2022-09-14T00:00:00.000",
+        "Observed": 11.6487448454
+      },
+      {
+        "Date": "2022-09-15T00:00:00.000",
+        "Observed": 17.7628883832
+      },
+      {
+        "Date": "2022-09-16T00:00:00.000",
+        "Observed": 17.4168989328
+      },
+      {
+        "Date": "2022-09-17T00:00:00.000",
+        "Observed": 16.4192378359
+      },
+      {
+        "Date": "2022-09-18T00:00:00.000",
+        "Observed": 7.7615359168
+      },
+      {
+        "Date": "2022-09-19T00:00:00.000",
+        "Observed": 7.1043744474
+      },
+      {
+        "Date": "2022-09-20T00:00:00.000",
+        "Observed": 8.257435402
+      },
+      {
+        "Date": "2022-09-21T00:00:00.000",
+        "Observed": 9.4047983107
+      },
+      {
+        "Date": "2022-09-22T00:00:00.000",
+        "Observed": 6.7681266142
+      },
+      {
+        "Date": "2022-09-23T00:00:00.000",
+        "Observed": 7.391281843
+      },
+      {
+        "Date": "2022-09-24T00:00:00.000",
+        "Observed": 9.1801128074
+      },
+      {
+        "Date": "2022-09-25T00:00:00.000",
+        "Observed": 14.1149206455
+      },
+      {
+        "Date": "2022-09-26T00:00:00.000",
+        "Observed": 12.3169122722
+      },
+      {
+        "Date": "2022-09-27T00:00:00.000",
+        "Observed": 11.5206485044
+      },
+      {
+        "Date": "2022-09-28T00:00:00.000",
+        "Observed": 9.9224840446
+      },
+      {
+        "Date": "2022-09-29T00:00:00.000",
+        "Observed": 8.0430891763
+      },
+      {
+        "Date": "2022-09-30T00:00:00.000",
+        "Observed": 11.0534503992
+      },
+      {
+        "Date": "2022-10-01T00:00:00.000",
+        "Observed": 15.5768376955
+      },
+      {
+        "Date": "2022-10-02T00:00:00.000",
+        "Observed": 7.4834868084
+      },
+      {
+        "Date": "2022-10-03T00:00:00.000",
+        "Observed": 6.1579408787
+      },
+      {
+        "Date": "2022-10-04T00:00:00.000",
+        "Observed": 6.9083507307
+      },
+      {
+        "Date": "2022-10-05T00:00:00.000",
+        "Observed": 6.0241728706
+      },
+      {
+        "Date": "2022-10-06T00:00:00.000",
+        "Observed": 5.8062985817
+      },
+      {
+        "Date": "2022-10-07T00:00:00.000",
+        "Observed": 6.5992496012
+      },
+      {
+        "Date": "2022-10-08T00:00:00.000",
+        "Observed": 10.4541056924
+      },
+      {
+        "Date": "2022-10-09T00:00:00.000",
+        "Observed": 16.1861241277
+      },
+      {
+        "Date": "2022-10-10T00:00:00.000",
+        "Observed": 18.2383612479
+      },
+      {
+        "Date": "2022-10-11T00:00:00.000",
+        "Observed": 21.3833601216
+      },
+      {
+        "Date": "2022-10-12T00:00:00.000",
+        "Observed": 16.131250573
+      },
+      {
+        "Date": "2022-10-13T00:00:00.000",
+        "Observed": 9.9627491195
+      },
+      {
+        "Date": "2022-10-14T00:00:00.000",
+        "Observed": 8.1228658417
+      },
+      {
+        "Date": "2022-10-15T00:00:00.000",
+        "Observed": 9.6847047759
+      },
+      {
+        "Date": "2022-10-16T00:00:00.000",
+        "Observed": 9.6686754575
+      },
+      {
+        "Date": "2022-10-17T00:00:00.000",
+        "Observed": 9.8130060745
+      },
+      {
+        "Date": "2022-10-18T00:00:00.000",
+        "Observed": 8.4605680264
+      },
+      {
+        "Date": "2022-10-19T00:00:00.000",
+        "Observed": 14.6537324746
+      },
+      {
+        "Date": "2022-10-20T00:00:00.000",
+        "Observed": 17.5555809519
+      },
+      {
+        "Date": "2022-10-21T00:00:00.000",
+        "Observed": 15.5126307776
+      },
+      {
+        "Date": "2022-10-22T00:00:00.000",
+        "Observed": 19.4517241299
+      },
+      {
+        "Date": "2022-10-23T00:00:00.000",
+        "Observed": 25.5323578017
+      },
+      {
+        "Date": "2022-10-24T00:00:00.000",
+        "Observed": 21.6489322289
+      },
+      {
+        "Date": "2022-10-25T00:00:00.000",
+        "Observed": 26.5999470929
+      },
+      {
+        "Date": "2022-10-26T00:00:00.000",
+        "Observed": 28.9045096485
+      },
+      {
+        "Date": "2022-10-27T00:00:00.000",
+        "Observed": 15.1456083433
+      },
+      {
+        "Date": "2022-10-28T00:00:00.000",
+        "Observed": 9.887279122
+      },
+      {
+        "Date": "2022-10-29T00:00:00.000",
+        "Observed": 8.0747263472
+      },
+      {
+        "Date": "2022-10-30T00:00:00.000",
+        "Observed": 12.0377250692
+      },
+      {
+        "Date": "2022-10-31T00:00:00.000",
+        "Observed": 14.7340100969
+      },
+      {
+        "Date": "2022-11-01T00:00:00.000",
+        "Observed": 11.8073413091
+      },
+      {
+        "Date": "2022-11-02T00:00:00.000",
+        "Observed": 18.8915536996
+      },
+      {
+        "Date": "2022-11-03T00:00:00.000",
+        "Observed": 25.1474195615
+      },
+      {
+        "Date": "2022-11-04T00:00:00.000",
+        "Observed": 27.1362029874
+      },
+      {
+        "Date": "2022-11-05T00:00:00.000",
+        "Observed": 19.0718140465
+      },
+      {
+        "Date": "2022-11-06T00:00:00.000",
+        "Observed": 8.9724694235
+      },
+      {
+        "Date": "2022-11-07T00:00:00.000",
+        "Observed": 15.2732545591
+      },
+      {
+        "Date": "2022-11-08T00:00:00.000",
+        "Observed": 30.5089966076
+      },
+      {
+        "Date": "2022-11-09T00:00:00.000",
+        "Observed": 25.4768291016
+      },
+      {
+        "Date": "2022-11-10T00:00:00.000",
+        "Observed": 28.3331561139
+      },
+      {
+        "Date": "2022-11-11T00:00:00.000",
+        "Observed": 29.9396742384
+      },
+      {
+        "Date": "2022-11-12T00:00:00.000",
+        "Observed": 15.8943616384
+      },
+      {
+        "Date": "2022-11-13T00:00:00.000",
+        "Observed": 29.5806332658
+      },
+      {
+        "Date": "2022-11-14T00:00:00.000",
+        "Observed": 24.559145774
+      },
+      {
+        "Date": "2022-11-15T00:00:00.000",
+        "Observed": 25.4150762829
+      },
+      {
+        "Date": "2022-11-16T00:00:00.000",
+        "Observed": 20.9969824307
+      },
+      {
+        "Date": "2022-11-17T00:00:00.000",
+        "Observed": 16.2718845402
+      },
+      {
+        "Date": "2022-11-18T00:00:00.000",
+        "Observed": 14.1478132851
+      },
+      {
+        "Date": "2022-11-19T00:00:00.000",
+        "Observed": 10.2976532648
+      },
+      {
+        "Date": "2022-11-20T00:00:00.000",
+        "Observed": 13.2009404385
+      },
+      {
+        "Date": "2022-11-21T00:00:00.000",
+        "Observed": 6.6398007517
+      },
+      {
+        "Date": "2022-11-22T00:00:00.000",
+        "Observed": 4.3862589914
+      },
+      {
+        "Date": "2022-11-23T00:00:00.000",
+        "Observed": 7.1312620654
+      },
+      {
+        "Date": "2022-11-24T00:00:00.000",
+        "Observed": 9.1058238449
+      },
+      {
+        "Date": "2022-11-25T00:00:00.000",
+        "Observed": 8.6750885151
+      },
+      {
+        "Date": "2022-11-26T00:00:00.000",
+        "Observed": 12.2353941106
+      },
+      {
+        "Date": "2022-11-27T00:00:00.000",
+        "Observed": 10.937705208
+      },
+      {
+        "Date": "2022-11-28T00:00:00.000",
+        "Observed": 10.6614182852
+      },
+      {
+        "Date": "2022-11-29T00:00:00.000",
+        "Observed": 13.9780656074
+      },
+      {
+        "Date": "2022-11-30T00:00:00.000",
+        "Observed": 19.7783056385
+      },
+      {
+        "Date": "2022-12-01T00:00:00.000",
+        "Observed": 14.5099946217
+      },
+      {
+        "Date": "2022-12-02T00:00:00.000",
+        "Observed": 20.1420303621
+      },
+      {
+        "Date": "2022-12-03T00:00:00.000",
+        "Observed": 14.3735951833
+      },
+      {
+        "Date": "2022-12-04T00:00:00.000",
+        "Observed": 16.0628691555
+      },
+      {
+        "Date": "2022-12-05T00:00:00.000",
+        "Observed": 13.2746822352
+      },
+      {
+        "Date": "2022-12-06T00:00:00.000",
+        "Observed": 15.9852741067
+      },
+      {
+        "Date": "2022-12-07T00:00:00.000",
+        "Observed": 17.6908450827
+      },
+      {
+        "Date": "2022-12-08T00:00:00.000",
+        "Observed": 19.9439254925
+      },
+      {
+        "Date": "2022-12-09T00:00:00.000",
+        "Observed": 25.0016269118
+      },
+      {
+        "Date": "2022-12-10T00:00:00.000",
+        "Observed": 15.0052119692
+      },
+      {
+        "Date": "2022-12-11T00:00:00.000",
+        "Observed": 10.5545806027
+      },
+      {
+        "Date": "2022-12-12T00:00:00.000",
+        "Observed": 10.8848960873
+      },
+      {
+        "Date": "2022-12-13T00:00:00.000",
+        "Observed": 15.4701536299
+      },
+      {
+        "Date": "2022-12-14T00:00:00.000",
+        "Observed": 14.8352357834
+      },
+      {
+        "Date": "2022-12-15T00:00:00.000",
+        "Observed": 18.90506177
+      },
+      {
+        "Date": "2022-12-16T00:00:00.000",
+        "Observed": 24.2293903562
+      },
+      {
+        "Date": "2022-12-17T00:00:00.000",
+        "Observed": 18.1659200218
+      },
+      {
+        "Date": "2022-12-18T00:00:00.000",
+        "Observed": 20.1440315326
+      },
+      {
+        "Date": "2022-12-19T00:00:00.000",
+        "Observed": 10.0124873784
+      },
+      {
+        "Date": "2022-12-20T00:00:00.000",
+        "Observed": 8.1430713883
+      },
+      {
+        "Date": "2022-12-21T00:00:00.000",
+        "Observed": 16.3002416602
+      },
+      {
+        "Date": "2022-12-22T00:00:00.000",
+        "Observed": 37.8123889136
+      },
+      {
+        "Date": "2022-12-23T00:00:00.000",
+        "Observed": 26.3512032622
+      },
+      {
+        "Date": "2022-12-24T00:00:00.000",
+        "Observed": 52.8224361826
+      },
+      {
+        "Date": "2022-12-25T00:00:00.000",
+        "Observed": 28.318521114
+      },
+      {
+        "Date": "2022-12-26T00:00:00.000",
+        "Observed": 28.4572995204
+      },
+      {
+        "Date": "2022-12-27T00:00:00.000",
+        "Observed": 31.7907313967
+      },
+      {
+        "Date": "2022-12-28T00:00:00.000",
+        "Observed": 33.1695859509
+      },
+      {
+        "Date": "2022-12-29T00:00:00.000",
+        "Observed": 33.3371349212
+      },
+      {
+        "Date": "2022-12-30T00:00:00.000",
+        "Observed": 37.1824794821
+      },
+      {
+        "Date": "2022-12-31T00:00:00.000",
+        "Observed": 38.8309059656
+      },
+      {
+        "Date": "2023-01-01T00:00:00.000",
+        "Observed": 33.9638054325
+      },
+      {
+        "Date": "2023-01-02T00:00:00.000",
+        "Observed": 35.0843333256
+      },
+      {
+        "Date": "2023-01-03T00:00:00.000",
+        "Observed": 37.3138670806
+      },
+      {
+        "Date": "2023-01-04T00:00:00.000",
+        "Observed": 34.2938684154
+      },
+      {
+        "Date": "2023-01-05T00:00:00.000",
+        "Observed": 36.1090863096
+      },
+      {
+        "Date": "2023-01-06T00:00:00.000",
+        "Observed": 32.0183223806
+      },
+      {
+        "Date": "2023-01-07T00:00:00.000",
+        "Observed": 32.2354485574
+      },
+      {
+        "Date": "2023-01-08T00:00:00.000",
+        "Observed": 36.2835503549
+      },
+      {
+        "Date": "2023-01-09T00:00:00.000",
+        "Observed": 35.1059333515
+      },
+      {
+        "Date": "2023-01-10T00:00:00.000",
+        "Observed": 11.1333520727
+      },
+      {
+        "Date": "2023-01-11T00:00:00.000",
+        "Observed": 14.1462882152
+      },
+      {
+        "Date": "2023-01-12T00:00:00.000",
+        "Observed": 11.7019256826
+      },
+      {
+        "Date": "2023-01-13T00:00:00.000",
+        "Observed": 11.7207983865
+      },
+      {
+        "Date": "2023-01-14T00:00:00.000",
+        "Observed": 18.203688273
+      },
+      {
+        "Date": "2023-01-15T00:00:00.000",
+        "Observed": 15.2858848007
+      },
+      {
+        "Date": "2023-01-16T00:00:00.000",
+        "Observed": 24.3025208911
+      },
+      {
+        "Date": "2023-01-17T00:00:00.000",
+        "Observed": 8.0903194594
+      },
+      {
+        "Date": "2023-01-18T00:00:00.000",
+        "Observed": 10.3722815267
+      },
+      {
+        "Date": "2023-01-19T00:00:00.000",
+        "Observed": 8.1861478885
+      },
+      {
+        "Date": "2023-01-20T00:00:00.000",
+        "Observed": 9.6361112227
+      },
+      {
+        "Date": "2023-01-21T00:00:00.000",
+        "Observed": 11.5414160883
+      },
+      {
+        "Date": "2023-01-22T00:00:00.000",
+        "Observed": 12.7172228802
+      },
+      {
+        "Date": "2023-01-23T00:00:00.000",
+        "Observed": 12.9680573529
+      },
+      {
+        "Date": "2023-01-24T00:00:00.000",
+        "Observed": 15.3638056871
+      },
+      {
+        "Date": "2023-01-25T00:00:00.000",
+        "Observed": 16.6081283086
+      },
+      {
+        "Date": "2023-01-26T00:00:00.000",
+        "Observed": 27.8509576437
+      },
+      {
+        "Date": "2023-01-27T00:00:00.000",
+        "Observed": 22.372312497
+      },
+      {
+        "Date": "2023-01-28T00:00:00.000",
+        "Observed": 19.9549389155
+      },
+      {
+        "Date": "2023-01-29T00:00:00.000",
+        "Observed": 19.5536889246
+      },
+      {
+        "Date": "2023-01-30T00:00:00.000",
+        "Observed": 21.0773422746
+      },
+      {
+        "Date": "2023-01-31T00:00:00.000",
+        "Observed": 20.9161627228
+      },
+      {
+        "Date": "2023-02-01T00:00:00.000",
+        "Observed": 14.6916584902
+      },
+      {
+        "Date": "2023-02-02T00:00:00.000",
+        "Observed": 15.75811051
+      },
+      {
+        "Date": "2023-02-03T00:00:00.000",
+        "Observed": 11.8504855831
+      },
+      {
+        "Date": "2023-02-04T00:00:00.000",
+        "Observed": 13.67038999
+      },
+      {
+        "Date": "2023-02-05T00:00:00.000",
+        "Observed": 7.7816456826
+      },
+      {
+        "Date": "2023-02-06T00:00:00.000",
+        "Observed": 8.1911874145
+      },
+      {
+        "Date": "2023-02-07T00:00:00.000",
+        "Observed": 10.1388139704
+      },
+      {
+        "Date": "2023-02-08T00:00:00.000",
+        "Observed": 9.7868808199
+      },
+      {
+        "Date": "2023-02-09T00:00:00.000",
+        "Observed": 9.5761674615
+      },
+      {
+        "Date": "2023-02-10T00:00:00.000",
+        "Observed": 9.3907182768
+      },
+      {
+        "Date": "2023-02-11T00:00:00.000",
+        "Observed": 11.0339809241
+      },
+      {
+        "Date": "2023-02-12T00:00:00.000",
+        "Observed": 21.7631503604
+      },
+      {
+        "Date": "2023-02-13T00:00:00.000",
+        "Observed": 10.75120449
+      },
+      {
+        "Date": "2023-02-14T00:00:00.000",
+        "Observed": 29.9210027688
+      },
+      {
+        "Date": "2023-02-15T00:00:00.000",
+        "Observed": 35.418971057
+      },
+      {
+        "Date": "2023-02-16T00:00:00.000",
+        "Observed": 29.2237214991
+      },
+      {
+        "Date": "2023-02-17T00:00:00.000",
+        "Observed": 29.5467555719
+      },
+      {
+        "Date": "2023-02-18T00:00:00.000",
+        "Observed": 19.3038339215
+      },
+      {
+        "Date": "2023-02-19T00:00:00.000",
+        "Observed": 15.7635579278
+      },
+      {
+        "Date": "2023-02-20T00:00:00.000",
+        "Observed": 12.8263880181
+      },
+      {
+        "Date": "2023-02-21T00:00:00.000",
+        "Observed": 16.4422703924
+      },
+      {
+        "Date": "2023-02-22T00:00:00.000",
+        "Observed": 23.1096538371
+      },
+      {
+        "Date": "2023-02-23T00:00:00.000",
+        "Observed": 26.9796977285
+      },
+      {
+        "Date": "2023-02-24T00:00:00.000",
+        "Observed": 25.6343992119
+      },
+      {
+        "Date": "2023-02-25T00:00:00.000",
+        "Observed": 20.3363276888
+      },
+      {
+        "Date": "2023-02-26T00:00:00.000",
+        "Observed": 12.2983245518
+      },
+      {
+        "Date": "2023-02-27T00:00:00.000",
+        "Observed": 19.0816015742
+      },
+      {
+        "Date": "2023-02-28T00:00:00.000",
+        "Observed": 23.8834181006
+      },
+      {
+        "Date": "2023-03-01T00:00:00.000",
+        "Observed": 24.7736495814
+      },
+      {
+        "Date": "2023-03-02T00:00:00.000",
+        "Observed": 18.0434735901
+      },
+      {
+        "Date": "2023-03-03T00:00:00.000",
+        "Observed": 14.1927236609
+      },
+      {
+        "Date": "2023-03-04T00:00:00.000",
+        "Observed": 12.417358107
+      },
+      {
+        "Date": "2023-03-05T00:00:00.000",
+        "Observed": 16.2145453322
+      },
+      {
+        "Date": "2023-03-06T00:00:00.000",
+        "Observed": 10.5562067613
+      },
+      {
+        "Date": "2023-03-07T00:00:00.000",
+        "Observed": 12.1048283818
+      },
+      {
+        "Date": "2023-03-08T00:00:00.000",
+        "Observed": 12.9086415172
+      },
+      {
+        "Date": "2023-03-09T00:00:00.000",
+        "Observed": 11.7044962032
+      },
+      {
+        "Date": "2023-03-10T00:00:00.000",
+        "Observed": 12.3502501923
+      },
+      {
+        "Date": "2023-03-11T00:00:00.000",
+        "Observed": 8.5312209854
+      },
+      {
+        "Date": "2023-03-12T00:00:00.000",
+        "Observed": 8.1310009227
+      },
+      {
+        "Date": "2023-03-13T00:00:00.000",
+        "Observed": 8.199116925
+      },
+      {
+        "Date": "2023-03-14T00:00:00.000",
+        "Observed": 9.8668604315
+      },
+      {
+        "Date": "2023-03-15T00:00:00.000",
+        "Observed": 13.2798032641
+      },
+      {
+        "Date": "2023-03-16T00:00:00.000",
+        "Observed": 11.0257814947
+      },
+      {
+        "Date": "2023-03-17T00:00:00.000",
+        "Observed": 6.2723118448
+      },
+      {
+        "Date": "2023-03-18T00:00:00.000",
+        "Observed": 9.0584842702
+      },
+      {
+        "Date": "2023-03-19T00:00:00.000",
+        "Observed": 13.9148758771
+      },
+      {
+        "Date": "2023-03-20T00:00:00.000",
+        "Observed": 19.3415510159
+      },
+      {
+        "Date": "2023-03-21T00:00:00.000",
+        "Observed": 29.5612065311
+      },
+      {
+        "Date": "2023-03-22T00:00:00.000",
+        "Observed": 24.0298311646
+      },
+      {
+        "Date": "2023-03-23T00:00:00.000",
+        "Observed": 11.2757913835
+      },
+      {
+        "Date": "2023-03-24T00:00:00.000",
+        "Observed": 20.358123698
+      },
+      {
+        "Date": "2023-03-25T00:00:00.000",
+        "Observed": 27.8004532027
+      },
+      {
+        "Date": "2023-03-26T00:00:00.000",
+        "Observed": 16.3596353497
+      },
+      {
+        "Date": "2023-03-27T00:00:00.000",
+        "Observed": 13.9301100571
+      },
+      {
+        "Date": "2023-03-28T00:00:00.000",
+        "Observed": 4.6774659014
+      },
+      {
+        "Date": "2023-03-29T00:00:00.000",
+        "Observed": 8.3619038181
+      },
+      {
+        "Date": "2023-03-30T00:00:00.000",
+        "Observed": 10.2391763421
+      },
+      {
+        "Date": "2023-03-31T00:00:00.000",
+        "Observed": 9.0960589736
+      },
+      {
+        "Date": "2023-04-01T00:00:00.000",
+        "Observed": 9.8472415028
+      },
+      {
+        "Date": "2023-04-02T00:00:00.000",
+        "Observed": 21.4815862244
+      },
+      {
+        "Date": "2023-04-03T00:00:00.000",
+        "Observed": 10.7369654166
+      },
+      {
+        "Date": "2023-04-04T00:00:00.000",
+        "Observed": 5.6734019802
+      },
+      {
+        "Date": "2023-04-05T00:00:00.000",
+        "Observed": 6.2222459323
+      },
+      {
+        "Date": "2023-04-06T00:00:00.000",
+        "Observed": 7.2801836636
+      },
+      {
+        "Date": "2023-04-07T00:00:00.000",
+        "Observed": 14.9210050501
+      },
+      {
+        "Date": "2023-04-08T00:00:00.000",
+        "Observed": 20.7463280989
+      },
+      {
+        "Date": "2023-04-09T00:00:00.000",
+        "Observed": 20.0709980751
+      },
+      {
+        "Date": "2023-04-10T00:00:00.000",
+        "Observed": 11.3215014321
+      },
+      {
+        "Date": "2023-04-11T00:00:00.000",
+        "Observed": 11.6637854885
+      },
+      {
+        "Date": "2023-04-12T00:00:00.000",
+        "Observed": 15.7474949299
+      },
+      {
+        "Date": "2023-04-13T00:00:00.000",
+        "Observed": 15.4308022408
+      },
+      {
+        "Date": "2023-04-14T00:00:00.000",
+        "Observed": 14.4242711058
+      },
+      {
+        "Date": "2023-04-15T00:00:00.000",
+        "Observed": 7.4134802527
+      },
+      {
+        "Date": "2023-04-16T00:00:00.000",
+        "Observed": 9.2880153542
+      },
+      {
+        "Date": "2023-04-17T00:00:00.000",
+        "Observed": 6.867044992
+      },
+      {
+        "Date": "2023-04-18T00:00:00.000",
+        "Observed": 8.9334660286
+      },
+      {
+        "Date": "2023-04-19T00:00:00.000",
+        "Observed": 7.1823919502
+      },
+      {
+        "Date": "2023-04-20T00:00:00.000",
+        "Observed": 10.938473269
+      },
+      {
+        "Date": "2023-04-21T00:00:00.000",
+        "Observed": 14.5834463772
+      },
+      {
+        "Date": "2023-04-22T00:00:00.000",
+        "Observed": 12.4984515586
+      },
+      {
+        "Date": "2023-04-23T00:00:00.000",
+        "Observed": 15.7908522872
+      },
+      {
+        "Date": "2023-04-24T00:00:00.000",
+        "Observed": 19.0584286551
+      },
+      {
+        "Date": "2023-04-25T00:00:00.000",
+        "Observed": 11.8107598184
+      },
+      {
+        "Date": "2023-04-26T00:00:00.000",
+        "Observed": 7.1719413894
+      },
+      {
+        "Date": "2023-04-27T00:00:00.000",
+        "Observed": 8.3705051442
+      },
+      {
+        "Date": "2023-04-28T00:00:00.000",
+        "Observed": 11.6732902816
+      },
+      {
+        "Date": "2023-04-29T00:00:00.000",
+        "Observed": 17.8993186878
+      },
+      {
+        "Date": "2023-04-30T00:00:00.000",
+        "Observed": 24.3234247851
+      },
+      {
+        "Date": "2023-05-01T00:00:00.000",
+        "Observed": 24.9470797274
+      },
+      {
+        "Date": "2023-05-02T00:00:00.000",
+        "Observed": 21.2791450362
+      },
+      {
+        "Date": "2023-05-03T00:00:00.000",
+        "Observed": 18.1559948161
+      },
+      {
+        "Date": "2023-05-04T00:00:00.000",
+        "Observed": 12.8602070491
+      },
+      {
+        "Date": "2023-05-05T00:00:00.000",
+        "Observed": 11.4432712916
+      },
+      {
+        "Date": "2023-05-06T00:00:00.000",
+        "Observed": 10.1843217705
+      },
+      {
+        "Date": "2023-05-07T00:00:00.000",
+        "Observed": 10.6839889966
+      },
+      {
+        "Date": "2023-05-08T00:00:00.000",
+        "Observed": 13.4653051705
+      },
+      {
+        "Date": "2023-05-09T00:00:00.000",
+        "Observed": 14.8361859251
+      },
+      {
+        "Date": "2023-05-10T00:00:00.000",
+        "Observed": 8.8916278477
+      },
+      {
+        "Date": "2023-05-11T00:00:00.000",
+        "Observed": 8.1557367383
+      },
+      {
+        "Date": "2023-05-12T00:00:00.000",
+        "Observed": 10.2580600884
+      },
+      {
+        "Date": "2023-05-13T00:00:00.000",
+        "Observed": 12.1954036812
+      },
+      {
+        "Date": "2023-05-14T00:00:00.000",
+        "Observed": 16.873833211
+      },
+      {
+        "Date": "2023-05-15T00:00:00.000",
+        "Observed": 16.3713949192
+      },
+      {
+        "Date": "2023-05-16T00:00:00.000",
+        "Observed": 16.7717569084
+      },
+      {
+        "Date": "2023-05-17T00:00:00.000",
+        "Observed": 10.2381486105
+      },
+      {
+        "Date": "2023-05-18T00:00:00.000",
+        "Observed": 10.529713975
+      },
+      {
+        "Date": "2023-05-19T00:00:00.000",
+        "Observed": 12.7049367538
+      },
+      {
+        "Date": "2023-05-20T00:00:00.000",
+        "Observed": 16.396763009
+      },
+      {
+        "Date": "2023-05-21T00:00:00.000",
+        "Observed": 16.7852974205
+      },
+      {
+        "Date": "2023-05-22T00:00:00.000",
+        "Observed": 17.1753309761
+      },
+      {
+        "Date": "2023-05-23T00:00:00.000",
+        "Observed": 12.2578408667
+      },
+      {
+        "Date": "2023-05-24T00:00:00.000",
+        "Observed": 15.140615271
+      },
+      {
+        "Date": "2023-05-25T00:00:00.000",
+        "Observed": 17.3880757217
+      },
+      {
+        "Date": "2023-05-26T00:00:00.000",
+        "Observed": 11.2078031995
+      },
+      {
+        "Date": "2023-05-27T00:00:00.000",
+        "Observed": 10.5315100098
+      },
+      {
+        "Date": "2023-05-28T00:00:00.000",
+        "Observed": 9.3886129524
+      },
+      {
+        "Date": "2023-05-29T00:00:00.000",
+        "Observed": 10.0077466278
+      }
+    ],
+    "evaluation": [
+      {
+        "Date": "2023-04-30T00:00:00.000",
+        "Observed": 24.3234247851,
+        "Holt_Winters": 16.6652192764,
+        "Seasonal_naive": 15.7908522872
+      },
+      {
+        "Date": "2023-05-01T00:00:00.000",
+        "Observed": 24.9470797274,
+        "Holt_Winters": 15.473185452,
+        "Seasonal_naive": 19.0584286551
+      },
+      {
+        "Date": "2023-05-02T00:00:00.000",
+        "Observed": 21.2791450362,
+        "Holt_Winters": 14.9817639831,
+        "Seasonal_naive": 11.8107598184
+      },
+      {
+        "Date": "2023-05-03T00:00:00.000",
+        "Observed": 18.1559948161,
+        "Holt_Winters": 15.8580385428,
+        "Seasonal_naive": 7.1719413894
+      },
+      {
+        "Date": "2023-05-04T00:00:00.000",
+        "Observed": 12.8602070491,
+        "Holt_Winters": 15.7046465824,
+        "Seasonal_naive": 8.3705051442
+      },
+      {
+        "Date": "2023-05-05T00:00:00.000",
+        "Observed": 11.4432712916,
+        "Holt_Winters": 16.2499657621,
+        "Seasonal_naive": 11.6732902816
+      },
+      {
+        "Date": "2023-05-06T00:00:00.000",
+        "Observed": 10.1843217705,
+        "Holt_Winters": 16.6251768489,
+        "Seasonal_naive": 17.8993186878
+      },
+      {
+        "Date": "2023-05-07T00:00:00.000",
+        "Observed": 10.6839889966,
+        "Holt_Winters": 16.6660721579,
+        "Seasonal_naive": 15.7908522872
+      },
+      {
+        "Date": "2023-05-08T00:00:00.000",
+        "Observed": 13.4653051705,
+        "Holt_Winters": 15.4738677572,
+        "Seasonal_naive": 19.0584286551
+      },
+      {
+        "Date": "2023-05-09T00:00:00.000",
+        "Observed": 14.8361859251,
+        "Holt_Winters": 14.9823098272,
+        "Seasonal_naive": 11.8107598184
+      },
+      {
+        "Date": "2023-05-10T00:00:00.000",
+        "Observed": 8.8916278477,
+        "Holt_Winters": 15.8584752181,
+        "Seasonal_naive": 7.1719413894
+      },
+      {
+        "Date": "2023-05-11T00:00:00.000",
+        "Observed": 8.1557367383,
+        "Holt_Winters": 15.7049959227,
+        "Seasonal_naive": 8.3705051442
+      },
+      {
+        "Date": "2023-05-12T00:00:00.000",
+        "Observed": 10.2580600884,
+        "Holt_Winters": 16.2502452343,
+        "Seasonal_naive": 11.6732902816
+      },
+      {
+        "Date": "2023-05-13T00:00:00.000",
+        "Observed": 12.1954036812,
+        "Holt_Winters": 16.6254004267,
+        "Seasonal_naive": 17.8993186878
+      },
+      {
+        "Date": "2023-05-14T00:00:00.000",
+        "Observed": 16.873833211,
+        "Holt_Winters": 16.6662510201,
+        "Seasonal_naive": 15.7908522872
+      },
+      {
+        "Date": "2023-05-15T00:00:00.000",
+        "Observed": 16.3713949192,
+        "Holt_Winters": 15.474010847,
+        "Seasonal_naive": 19.0584286551
+      },
+      {
+        "Date": "2023-05-16T00:00:00.000",
+        "Observed": 16.7717569084,
+        "Holt_Winters": 14.982424299,
+        "Seasonal_naive": 11.8107598184
+      },
+      {
+        "Date": "2023-05-17T00:00:00.000",
+        "Observed": 10.2381486105,
+        "Holt_Winters": 15.8585667956,
+        "Seasonal_naive": 7.1719413894
+      },
+      {
+        "Date": "2023-05-18T00:00:00.000",
+        "Observed": 10.529713975,
+        "Holt_Winters": 15.7050691846,
+        "Seasonal_naive": 8.3705051442
+      },
+      {
+        "Date": "2023-05-19T00:00:00.000",
+        "Observed": 12.7049367538,
+        "Holt_Winters": 16.2503038439,
+        "Seasonal_naive": 11.6732902816
+      },
+      {
+        "Date": "2023-05-20T00:00:00.000",
+        "Observed": 16.396763009,
+        "Holt_Winters": 16.6254473143,
+        "Seasonal_naive": 17.8993186878
+      },
+      {
+        "Date": "2023-05-21T00:00:00.000",
+        "Observed": 16.7852974205,
+        "Holt_Winters": 16.6662885302,
+        "Seasonal_naive": 15.7908522872
+      },
+      {
+        "Date": "2023-05-22T00:00:00.000",
+        "Observed": 17.1753309761,
+        "Holt_Winters": 15.4740408551,
+        "Seasonal_naive": 19.0584286551
+      },
+      {
+        "Date": "2023-05-23T00:00:00.000",
+        "Observed": 12.2578408667,
+        "Holt_Winters": 14.9824483055,
+        "Seasonal_naive": 11.8107598184
+      },
+      {
+        "Date": "2023-05-24T00:00:00.000",
+        "Observed": 15.140615271,
+        "Holt_Winters": 15.8585860008,
+        "Seasonal_naive": 7.1719413894
+      },
+      {
+        "Date": "2023-05-25T00:00:00.000",
+        "Observed": 17.3880757217,
+        "Holt_Winters": 15.7050845488,
+        "Seasonal_naive": 8.3705051442
+      },
+      {
+        "Date": "2023-05-26T00:00:00.000",
+        "Observed": 11.2078031995,
+        "Holt_Winters": 16.2503161352,
+        "Seasonal_naive": 11.6732902816
+      },
+      {
+        "Date": "2023-05-27T00:00:00.000",
+        "Observed": 10.5315100098,
+        "Holt_Winters": 16.6254571474,
+        "Seasonal_naive": 17.8993186878
+      },
+      {
+        "Date": "2023-05-28T00:00:00.000",
+        "Observed": 9.3886129524,
+        "Holt_Winters": 16.6662963967,
+        "Seasonal_naive": 15.7908522872
+      },
+      {
+        "Date": "2023-05-29T00:00:00.000",
+        "Observed": 10.0077466278,
+        "Holt_Winters": 15.4740471482,
+        "Seasonal_naive": 19.0584286551
+      }
+    ],
+    "metrics": [
+      {
+        "Model": "Holt_Winters",
+        "MAE": 4.039497344749016,
+        "RMSE": 4.834094997634688
+      },
+      {
+        "Model": "Seasonal_naive",
+        "MAE": 4.339170278911003,
+        "RMSE": 5.412688133077872
+      }
+    ],
+    "future": [
+      {
+        "Date": "2023-05-30T00:00:00.000",
+        "Predicted_PM25": 9.2171838322
+      },
+      {
+        "Date": "2023-05-31T00:00:00.000",
+        "Predicted_PM25": 10.0007697518
+      },
+      {
+        "Date": "2023-06-01T00:00:00.000",
+        "Predicted_PM25": 9.8343174434
+      },
+      {
+        "Date": "2023-06-02T00:00:00.000",
+        "Predicted_PM25": 10.3517022484
+      },
+      {
+        "Date": "2023-06-03T00:00:00.000",
+        "Predicted_PM25": 10.7426177893
+      },
+      {
+        "Date": "2023-06-04T00:00:00.000",
+        "Predicted_PM25": 10.8609684029
+      },
+      {
+        "Date": "2023-06-05T00:00:00.000",
+        "Predicted_PM25": 9.7327439361
+      },
+      {
+        "Date": "2023-06-06T00:00:00.000",
+        "Predicted_PM25": 9.2150586424
+      },
+      {
+        "Date": "2023-06-07T00:00:00.000",
+        "Predicted_PM25": 9.9987004914
+      },
+      {
+        "Date": "2023-06-08T00:00:00.000",
+        "Predicted_PM25": 9.8323026405
+      },
+      {
+        "Date": "2023-06-09T00:00:00.000",
+        "Predicted_PM25": 10.3497404698
+      },
+      {
+        "Date": "2023-06-10T00:00:00.000",
+        "Predicted_PM25": 10.7407076395
+      },
+      {
+        "Date": "2023-06-11T00:00:00.000",
+        "Predicted_PM25": 10.8591085232
+      },
+      {
+        "Date": "2023-06-12T00:00:00.000",
+        "Predicted_PM25": 9.7309330036
+      },
+      {
+        "Date": "2023-06-13T00:00:00.000",
+        "Predicted_PM25": 9.2132953688
+      },
+      {
+        "Date": "2023-06-14T00:00:00.000",
+        "Predicted_PM25": 9.9969836226
+      },
+      {
+        "Date": "2023-06-15T00:00:00.000",
+        "Predicted_PM25": 9.8306309552
+      },
+      {
+        "Date": "2023-06-16T00:00:00.000",
+        "Predicted_PM25": 10.3481127788
+      },
+      {
+        "Date": "2023-06-17T00:00:00.000",
+        "Predicted_PM25": 10.7391227851
+      },
+      {
+        "Date": "2023-06-18T00:00:00.000",
+        "Predicted_PM25": 10.857565378
+      },
+      {
+        "Date": "2023-06-19T00:00:00.000",
+        "Predicted_PM25": 9.7294304699
+      },
+      {
+        "Date": "2023-06-20T00:00:00.000",
+        "Predicted_PM25": 9.2118323779
+      },
+      {
+        "Date": "2023-06-21T00:00:00.000",
+        "Predicted_PM25": 9.9955591337
+      },
+      {
+        "Date": "2023-06-22T00:00:00.000",
+        "Predicted_PM25": 9.8292439551
+      },
+      {
+        "Date": "2023-06-23T00:00:00.000",
+        "Predicted_PM25": 10.3467622809
+      },
+      {
+        "Date": "2023-06-24T00:00:00.000",
+        "Predicted_PM25": 10.7378078287
+      },
+      {
+        "Date": "2023-06-25T00:00:00.000",
+        "Predicted_PM25": 10.8562850278
+      },
+      {
+        "Date": "2023-06-26T00:00:00.000",
+        "Predicted_PM25": 9.7281838152
+      },
+      {
+        "Date": "2023-06-27T00:00:00.000",
+        "Predicted_PM25": 9.2106185318
+      },
+      {
+        "Date": "2023-06-28T00:00:00.000",
+        "Predicted_PM25": 9.9943772329
+      }
+    ],
+    "training_end": "2023-04-29T00:00:00",
+    "test_start": "2023-04-30T00:00:00",
+    "test_days": 30,
+    "forecast_days": 30
+  },
+  "spatial": {
+    "stations": [
+      {
+        "station_name": "Athens CAMS station 0",
+        "latitude": 38.15,
+        "longitude": 23.55,
+        "mean_PM25": 9.5627003848,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 9",
+        "latitude": 37.85,
+        "longitude": 23.75,
+        "mean_PM25": 11.284816617,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 1",
+        "latitude": 38.15,
+        "longitude": 23.65,
+        "mean_PM25": 9.7538608319,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 10",
+        "latitude": 37.85,
+        "longitude": 23.85,
+        "mean_PM25": 10.6049746954,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 11",
+        "latitude": 37.85,
+        "longitude": 23.95,
+        "mean_PM25": 9.7940681413,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 13",
+        "latitude": 38.15,
+        "longitude": 23.85,
+        "mean_PM25": 10.1483464782,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 8",
+        "latitude": 37.85,
+        "longitude": 23.65,
+        "mean_PM25": 11.4509908966,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 14",
+        "latitude": 38.15,
+        "longitude": 23.95,
+        "mean_PM25": 9.4866140781,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 15",
+        "latitude": 38.05,
+        "longitude": 23.55,
+        "mean_PM25": 12.186203187,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 16",
+        "latitude": 38.05,
+        "longitude": 23.65,
+        "mean_PM25": 13.26197706,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 18",
+        "latitude": 38.05,
+        "longitude": 23.85,
+        "mean_PM25": 11.2288874496,
+        "observed_days": 1124,
+        "cluster": 0
+      },
+      {
+        "station_name": "Athens CAMS station 19",
+        "latitude": 38.05,
+        "longitude": 23.95,
+        "mean_PM25": 9.9781119638,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 7",
+        "latitude": 37.85,
+        "longitude": 23.55,
+        "mean_PM25": 10.6021127422,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 2",
+        "latitude": 37.95,
+        "longitude": 23.55,
+        "mean_PM25": 12.2112584572,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 3",
+        "latitude": 37.95,
+        "longitude": 23.65,
+        "mean_PM25": 13.8531556819,
+        "observed_days": 1124,
+        "cluster": 1
+      },
+      {
+        "station_name": "Athens CAMS station 4",
+        "latitude": 37.95,
+        "longitude": 23.75,
+        "mean_PM25": 13.1328559727,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "Athens CAMS station 12",
+        "latitude": 38.15,
+        "longitude": 23.75,
+        "mean_PM25": 10.230448111,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 5",
+        "latitude": 37.95,
+        "longitude": 23.85,
+        "mean_PM25": 11.2362514849,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "ARISTOTELOUS",
+        "latitude": 37.988,
+        "longitude": 23.728,
+        "mean_PM25": 18.1108677216,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "THRAKOMAKEDONES",
+        "latitude": 38.144,
+        "longitude": 23.758,
+        "mean_PM25": 12.1918224666,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PARASKEVI",
+        "latitude": 37.995,
+        "longitude": 23.819,
+        "mean_PM25": 11.7353230903,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "Athens CAMS station 17",
+        "latitude": 38.05,
+        "longitude": 23.75,
+        "mean_PM25": 13.2602158626,
+        "observed_days": 1124,
+        "cluster": 3
+      },
+      {
+        "station_name": "Athens CAMS station 6",
+        "latitude": 37.95,
+        "longitude": 23.95,
+        "mean_PM25": 10.0814910102,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "ELEFSINA",
+        "latitude": 38.051,
+        "longitude": 23.538,
+        "mean_PM25": 14.5527453221,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "SMYRNI",
+        "latitude": 37.932,
+        "longitude": 23.713,
+        "mean_PM25": 18.7090657712,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "MAROUSI",
+        "latitude": 38.031,
+        "longitude": 23.787,
+        "mean_PM25": 18.2378648593,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "KOROPI",
+        "latitude": 37.901,
+        "longitude": 23.879,
+        "mean_PM25": 11.2362514849,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PERISTERI",
+        "latitude": 38.021,
+        "longitude": 23.688,
+        "mean_PM25": 20.9220764959,
+        "observed_days": 1124,
+        "cluster": 4
+      },
+      {
+        "station_name": "Ano Liosia (Perneri)",
+        "latitude": 38.08363,
+        "longitude": 23.700375,
+        "mean_PM25": 17.1841189275,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "ATHINAS",
+        "latitude": 37.978,
+        "longitude": 23.727,
+        "mean_PM25": 23.0333765835,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "ATH-ENVICARE-0",
+        "latitude": 37.97673,
+        "longitude": 23.7298,
+        "mean_PM25": 23.0333765835,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "ATH-ENVICARE-2",
+        "latitude": 38.04972,
+        "longitude": 23.757725,
+        "mean_PM25": 20.7242130393,
+        "observed_days": 1124,
+        "cluster": 3
+      },
+      {
+        "station_name": "ATH-ENVICARE-3",
+        "latitude": 37.989967,
+        "longitude": 23.708792,
+        "mean_PM25": 22.4291049596,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "ATHENS_01",
+        "latitude": 38.040443,
+        "longitude": 23.833649,
+        "mean_PM25": 15.6552906379,
+        "observed_days": 1124,
+        "cluster": 0
+      },
+      {
+        "station_name": "ATHENS_02",
+        "latitude": 37.98204,
+        "longitude": 23.79478,
+        "mean_PM25": 13.83074189,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PANACEA_001",
+        "latitude": 37.99345,
+        "longitude": 23.744556,
+        "mean_PM25": 18.6276001037,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_000",
+        "latitude": 37.97312,
+        "longitude": 23.718056,
+        "mean_PM25": 16.0316065331,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_039",
+        "latitude": 37.97081,
+        "longitude": 23.748861,
+        "mean_PM25": 19.497467066,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "CleanAir in Greece - Thiseio II",
+        "latitude": 37.97381,
+        "longitude": 23.719069,
+        "mean_PM25": 19.0998212013,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_005",
+        "latitude": 38.01869,
+        "longitude": 23.810574,
+        "mean_PM25": 17.8001469546,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PANACEA_014",
+        "latitude": 38.013317,
+        "longitude": 23.647491,
+        "mean_PM25": 13.26197706,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PANACEA_019",
+        "latitude": 38.034657,
+        "longitude": 23.702152,
+        "mean_PM25": 19.8451144336,
+        "observed_days": 1124,
+        "cluster": 4
+      },
+      {
+        "station_name": "PANACEA_020",
+        "latitude": 38.090866,
+        "longitude": 23.72522,
+        "mean_PM25": 19.4726526198,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PANACEA_021",
+        "latitude": 38.022263,
+        "longitude": 23.737436,
+        "mean_PM25": 18.7962413993,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_022",
+        "latitude": 37.871895,
+        "longitude": 23.755962,
+        "mean_PM25": 13.9780754865,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PANACEA_029",
+        "latitude": 38.00546,
+        "longitude": 23.73234,
+        "mean_PM25": 20.312720325,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_032",
+        "latitude": 38.132057,
+        "longitude": 23.789848,
+        "mean_PM25": 12.5322941986,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PANACEA_037",
+        "latitude": 38.053745,
+        "longitude": 23.741959,
+        "mean_PM25": 14.6642699088,
+        "observed_days": 1124,
+        "cluster": 3
+      },
+      {
+        "station_name": "National Technical University of Athens",
+        "latitude": 37.97721,
+        "longitude": 23.783016,
+        "mean_PM25": 13.2008197544,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PANACEA_038",
+        "latitude": 37.9357,
+        "longitude": 23.644547,
+        "mean_PM25": 15.1483324877,
+        "observed_days": 1124,
+        "cluster": 1
+      },
+      {
+        "station_name": "PPCITY21",
+        "latitude": 37.978336,
+        "longitude": 23.727934,
+        "mean_PM25": 18.815935297,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_045",
+        "latitude": 37.948063,
+        "longitude": 23.72836,
+        "mean_PM25": 13.2264549361,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_046",
+        "latitude": 37.933243,
+        "longitude": 23.757456,
+        "mean_PM25": 13.04261936,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_004",
+        "latitude": 38.056435,
+        "longitude": 23.840101,
+        "mean_PM25": 14.633853541,
+        "observed_days": 1124,
+        "cluster": 0
+      },
+      {
+        "station_name": "PANACEA_047",
+        "latitude": 37.961323,
+        "longitude": 23.761395,
+        "mean_PM25": 13.1082932063,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_048",
+        "latitude": 38.04067,
+        "longitude": 23.684368,
+        "mean_PM25": 17.6858220965,
+        "observed_days": 1124,
+        "cluster": 4
+      },
+      {
+        "station_name": "PANACEA_049",
+        "latitude": 38.037506,
+        "longitude": 23.686476,
+        "mean_PM25": 17.7468165686,
+        "observed_days": 1124,
+        "cluster": 4
+      },
+      {
+        "station_name": "PANACEA_AirPaP_001",
+        "latitude": 38.037838,
+        "longitude": 23.826132,
+        "mean_PM25": 15.7181129861,
+        "observed_days": 1124,
+        "cluster": 0
+      },
+      {
+        "station_name": "CleanAir in Greece - Thiseio",
+        "latitude": 37.974033,
+        "longitude": 23.718441,
+        "mean_PM25": 19.1376475916,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_AirPaP_002",
+        "latitude": 38.00266,
+        "longitude": 23.763859,
+        "mean_PM25": 18.1511667,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_AirPaP_006",
+        "latitude": 37.95576,
+        "longitude": 23.667692,
+        "mean_PM25": 18.7542783555,
+        "observed_days": 1124,
+        "cluster": 1
+      },
+      {
+        "station_name": "PANACEA_AirPaP_008",
+        "latitude": 37.92956,
+        "longitude": 23.69305,
+        "mean_PM25": 18.927221521,
+        "observed_days": 1124,
+        "cluster": -1
+      },
+      {
+        "station_name": "PPCITY12",
+        "latitude": 37.988132,
+        "longitude": 23.72989,
+        "mean_PM25": 16.0871021257,
+        "observed_days": 1124,
+        "cluster": 2
+      },
+      {
+        "station_name": "PANACEA_006",
+        "latitude": 37.813873,
+        "longitude": 23.782408,
+        "mean_PM25": 12.5431560649,
+        "observed_days": 1124,
+        "cluster": -1
+      }
+    ],
+    "summary": [
+      {
+        "cluster": 4,
+        "number_of_stations": 4,
+        "mean_PM25": 19.0499573986,
+        "min_station_PM25": 17.6858220965,
+        "max_station_PM25": 20.9220764959
+      },
+      {
+        "cluster": 2,
+        "number_of_stations": 18,
+        "mean_PM25": 17.9819032037,
+        "min_station_PM25": 13.04261936,
+        "max_station_PM25": 23.0333765835
+      },
+      {
+        "cluster": 3,
+        "number_of_stations": 3,
+        "mean_PM25": 16.2162329369,
+        "min_station_PM25": 13.2602158626,
+        "max_station_PM25": 20.7242130393
+      },
+      {
+        "cluster": 1,
+        "number_of_stations": 3,
+        "mean_PM25": 15.9185888417,
+        "min_station_PM25": 13.8531556819,
+        "max_station_PM25": 18.7542783555
+      },
+      {
+        "cluster": 0,
+        "number_of_stations": 4,
+        "mean_PM25": 14.3090361536,
+        "min_station_PM25": 11.2288874496,
+        "max_station_PM25": 15.7181129861
+      }
+    ],
+    "noise_stations": 32,
+    "excluded_coordinate_stations": 0,
+    "eps_km": 2.0,
+    "min_samples": 3
+  }
+}
